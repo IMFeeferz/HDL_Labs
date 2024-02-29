@@ -1,0 +1,9 @@
+{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/4-bit D Flip-Flip.sv} {0 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/4-bit D Flip-Flip.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flopen
+** Error: (vlog-13069) C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/4-bit D Flip-Flip.sv(6): near "if": syntax error, unexpected if.
+
+} {4.0 5.0} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Register File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Register File.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}
