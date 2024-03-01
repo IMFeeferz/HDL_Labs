@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,157 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
+vDecoder_1_to_8
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1709262895
+!i10b 1
+!s100 1U>JHbVR[S:QN:hQCPQE30
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_6Hj@GYIfhmLoQX1gKcO^3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4
+Z5 w1709262886
+Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv
+Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv
+!i122 13
+L0 1 14
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1709262895.000000
+Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@decoder_1_to_8
+vMUx2_to_1
+R0
+!s110 1709259662
+!i10b 1
+!s100 4Oz<HEJAOhCh:WYkCf]UD0
+R2
+IASb3VM98;@]zacPhzEPOX1
+R3
+S1
+R4
+w1709259659
+R6
+R7
+!i122 5
+L0 16 8
+R8
+r1
+!s85 0
+31
+!s108 1709259662.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@m@ux2_to_1
+vMUX2_to_1_3_bit
+R0
+Z14 !s110 1709260164
+!i10b 1
+!s100 HiG:ZL9i]g^MOaPgmVo8D1
+R2
+IF1[`W[7lC6kO3fdn7lRh62
+R3
+S1
+R4
+Z15 w1709260159
+R6
+R7
+!i122 9
+Z16 L0 16 10
+R8
+r1
+!s85 0
+31
+Z17 !s108 1709260164.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@m@u@x2_to_1_3_bit
+vMUX_2_1_3bit
+R0
+R1
+!i10b 1
+!s100 zoSlkTh<]ih^aAX>KDkUE1
+R2
+I5aMm34GLQ94G11<X73HV13
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 13
+R16
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@u@x_2_1_3bit
+vregister_file
+R0
+R14
+!i10b 1
+!s100 If<T=O:3OeU3aCEcVlidD1
+R2
+Ik?KVY7FLi2ae9;_[gaS5a0
+R3
+S1
+R4
+R15
+R6
+R7
+!i122 9
+L0 28 10
+R8
+r1
+!s85 0
+31
+R17
+R10
+R11
+!i113 1
+R12
+R13
+vswap
+R0
+R1
+!i10b 1
+!s100 GcA3:T873g9bi4zAiY>j]0
+R2
+IK3jh31ica4=gDN>h1Y6?A2
+R3
+S1
+R4
+w1709255844
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
+!i122 12
+L0 1 9
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv|
+!i113 1
+R12
+R13

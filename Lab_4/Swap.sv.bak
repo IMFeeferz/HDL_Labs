@@ -1,1 +1,8 @@
-
+module swap(	input logic [3:0] x_data, y_data,
+		output logic [3:0] x_swap, y_swap);
+	logic [3:0] XOR;
+	
+	assign XOR = x_data ^ y_data;
+	assign x_swap = XOR ^ XOR_2;
+	assign y_swap = XOR ^ y_data
+endmodule 
