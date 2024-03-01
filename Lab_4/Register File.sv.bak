@@ -50,17 +50,17 @@ module register_file(	input clk, init, swap,
 	Decoder_3_to_8 my_decoder(x, z);
 
 	//assigning AND gates for enables to the D Flip Flops
-	assign _en = en & z;
+	assign w_en = en & z;
 	 
 	// D Flip Flops r0-r7
-	D_Flip_Flop_4bit reg0(clk, _en, reset, d, 3'b000, r[0]);
-	D_Flip_Flop_4bit reg1(clk, _en, reset, d, 3'b001, r[1]);
-	D_Flip_Flop_4bit reg2(clk, _en, reset, d, 3'b010, r[2]);
-	D_Flip_Flop_4bit reg3(clk, _en, reset, d, 3'b100, r[3]);
-	D_Flip_Flop_4bit reg4(clk, _en, reset, d, 3'b011, r[4]);
-	D_Flip_Flop_4bit reg5(clk, _en, reset, d, 3'b101, r[5]);
-	D_Flip_Flop_4bit reg6(clk, _en, reset, d, 3'b110, r[6]);
-	D_Flip_Flop_4bit reg7(clk, _en, reset, d, 3'b111, r[7]);
+	D_Flip_Flop_4bit reg0(clk, w_en, reset, d, 3'b000, r[0]);
+	D_Flip_Flop_4bit reg1(clk, w_en, reset, d, 3'b001, r[1]);
+	D_Flip_Flop_4bit reg2(clk, w_en, reset, d, 3'b010, r[2]);
+	D_Flip_Flop_4bit reg3(clk, w_en, reset, d, 3'b100, r[3]);
+	D_Flip_Flop_4bit reg4(clk, w_en, reset, d, 3'b011, r[4]);
+	D_Flip_Flop_4bit reg5(clk, w_en, reset, d, 3'b101, r[5]);
+	D_Flip_Flop_4bit reg6(clk, w_en, reset, d, 3'b110, r[6]);
+	D_Flip_Flop_4bit reg7(clk, w_en, reset, d, 3'b111, r[7]);
 
 	//Instantiating MUX
 	MUX_8_1 rd_port(r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], rd_addr, rd_data);

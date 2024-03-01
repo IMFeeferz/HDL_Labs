@@ -31,7 +31,7 @@ module MUX_8_1(	input logic [3:0] D0, D1, D2, D3, D4, D5, D6, D7,
 endmodule
 
 
-module register_file(	input clk, init, swap,
+module register_file(	input logic clk, init, swap,
 			input logic [2:0] x, y,
 			output logic [3:0] r[7:0]);	
 	logic [31:0] wrt_data;
