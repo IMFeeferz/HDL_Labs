@@ -1,76 +1,68 @@
-module Decoder_1_to_8(	input logic [2:0] a, 
-			output logic [2:0] y);
+module Decoder_3_to_8(	input logic [2:0] a, 
+			output logic [7:0] y);
 	always_comb
 		case(a)
-			3'b000: y = 3'b000;
-			3'b001: y = 3'b001;
-			3'b010: y = 3'b010;
-			3'b100: y = 3'b100;
-			3'b011: y = 3'b011;
-			3'b101: y = 3'b101;
-			3'b110: y = 3'b110;
-			3'b111: y = 3'b111;
+			3'b000: y = 8'b00000001;
+			3'b001: y = 8'b00000010;
+			3'b010: y = 8'b00000100;
+			3'b100: y = 8'b00001000;
+			3'b011: y = 8'b00010000;
+			3'b101: y = 8'b00100000;
+			3'b110: y = 8'b01000000;
+			3'b111: y = 8'b10000000;
 		endcase
 endmodule
 
-module MUX_2_1_3bit(	input logic [2:0] D0, D1, 
-			input S,
-			output logic [2:0] y);
-	assign y = S ? D1 : D0;
-	//always_comb
-		//case(S)
-			//1'b1: y = D1;
-			//1'b0: y = D0;
-		//endcase
+module MUX_8_1(	input logic [3:0] D0, D1, D2, D3, D4, D5, D6, D7, 
+			input [2:0] S,
+			output logic [3:0] y);
+	//assign y = S ? D1 : D0;
+	always_comb
+		case(S)
+			3'b000: y = D0;
+			3'b001: y = D1;
+			3'b010: y = D2;
+			3'b100: y = D3;
+			3'b011: y = D4;
+			3'b101: y = D5;
+			3'b110: y = D6;
+			3'b111: y = D7;
+		endcase
 endmodule
 
 
 module register_file(	input clk, init, swap,
 			input logic [2:0] x, y,
-			logic [3:0] r[7:0]);	
-	logic [31:0] wrt_data, rd_data;
+			output logic [3:0] r[7:0]);	
+	logic [31:0] wrt_data;
 	logic [3:0] d;
-	logic [2:0] mux_output_3bit;
-	logic [2:0] b[7:0];
-	logic s;
-	logic en;
-	logic reset;
+	logic [2:0] wrt_addr, rd_addr;
+	logic reset, en;
+	assign en = 1;
+	assign reset = init;
 	
-	// assign b[i] for its respective 3 bit inputs that will get passed into
-	// the D Flip Flop function
-	assign b[0] = 000;// 3'b000
-	assign b[1] = 001;// 3'b001
-	assign b[2] = 010;// 3'b010
-	assign b[3] = 100;// 3'b100
-	assign b[4] = 011;// 3'b011
-	assign b[5] = 101;// 3'b101
-	assign b[6] = 110;// 3'b110
-	assign b[7] = 111;// 3'b111
-
+	
 	// Passing x and y into 2 to 1 3 bit MUX
-	MUX_2_1_3bit mux_3bit_1(x, y, s, mux_output_3bit);
+	//MUX_2_1_3bit mux_3bit_1(x, y, s, mux_output_3bit);
+	//MUX_8_1(
 	
 	//Passing x and y into decoder function
-	Decoder_1_to_8 my_decoder(x, y);
-	 
-	// D Flip Flops r0-r7
-	D_Flip_Flop_4bit r0(clk, en, reset, d, b[0], r[0]);
-	D_Flip_Flop_4bit r1(clk, en, reset, d, b[1], r[1]);
-	D_Flip_Flop_4bit r2(clk, en, reset, d, b[2], r[2]);
-	D_Flip_Flop_4bit r3(clk, en, reset, d, b[3], r[3]);
-	D_Flip_Flop_4bit r4(clk, en, reset, d, b[4], r[4]);
-	D_Flip_Flop_4bit r5(clk, en, reset, d, b[5], r[5]);
-	D_Flip_Flop_4bit r6(clk, en, reset, d, b[6], r[6]);
-	D_Flip_Flop_4bit r7(clk, en, reset, d, b[7], r[7]);
+	Decoder_3_to_8 my_decoder(x, z);
 
 	//assigning AND gates for enables to the D Flip Flops
-	assign AND_0 = en & r[0];
-	assign AND_1 = en & r[1];
-	assign AND_2 = en & r[2];
-	assign AND_3 = en & r[3];
-	assign AND_4 = en & r[4];
-	assign AND_5 = en & r[5];
-	assign AND_6 = en & r[6];
-	assign AND_7 = en & r[7];
+	assign w_en = en & z;
+	 
+	// D Flip Flops r0-r7
+	D_Flip_Flop_4bit reg0(clk, w_en, reset, d, 3'b000, r[0]);
+	D_Flip_Flop_4bit reg1(clk, w_en, reset, d, 3'b001, r[1]);
+	D_Flip_Flop_4bit reg2(clk, w_en, reset, d, 3'b010, r[2]);
+	D_Flip_Flop_4bit reg3(clk, w_en, reset, d, 3'b100, r[3]);
+	D_Flip_Flop_4bit reg4(clk, w_en, reset, d, 3'b011, r[4]);
+	D_Flip_Flop_4bit reg5(clk, w_en, reset, d, 3'b101, r[5]);
+	D_Flip_Flop_4bit reg6(clk, w_en, reset, d, 3'b110, r[6]);
+	D_Flip_Flop_4bit reg7(clk, w_en, reset, d, 3'b111, r[7]);
+
+	//Instantiating MUX
+	MUX_8_1 rd_port(r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], rd_addr, rd_data);
 
 endmodule
