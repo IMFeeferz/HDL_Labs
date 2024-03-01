@@ -1,0 +1,44 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv}
+project open {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Lab_4}
+# Loading project Lab_4
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 11:30:05 on Mar 01,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.register_file
+# Loading work.Decoder_3_to_8
+# Loading work.D_Flip_Flop_4bit
+add wave -position insertpoint sim:/testbench/*
+add wave -position insertpoint  \
+sim:/testbench/r
+run
+# cycle 1 passed.
+# cycle 2 passed.
+# cylce 3 passed.
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# cycle 1 passed.
+# cycle 2 passed.
+# cylce 3 passed.
+run
+run
+run
+run
+run
+quit -sim
+# End time: 12:17:36 on Mar 01,2024, Elapsed time: 0:47:31
+# Errors: 0, Warnings: 1

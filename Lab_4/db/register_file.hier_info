@@ -1,0 +1,274 @@
+|register_file
+clk => clk.IN8
+init => reset.IN8
+swap => ~NO_FANOUT~
+x[0] => Decoder_3_to_8:my_decoder.a[0]
+x[1] => Decoder_3_to_8:my_decoder.a[1]
+x[2] => Decoder_3_to_8:my_decoder.a[2]
+y[0] => ~NO_FANOUT~
+y[1] => ~NO_FANOUT~
+y[2] => ~NO_FANOUT~
+r[0][0] << D_Flip_Flop_4bit:reg0.port5
+r[0][1] << D_Flip_Flop_4bit:reg0.port5
+r[0][2] << D_Flip_Flop_4bit:reg0.port5
+r[0][3] << D_Flip_Flop_4bit:reg0.port5
+r[1][0] << D_Flip_Flop_4bit:reg1.port5
+r[1][1] << D_Flip_Flop_4bit:reg1.port5
+r[1][2] << D_Flip_Flop_4bit:reg1.port5
+r[1][3] << D_Flip_Flop_4bit:reg1.port5
+r[2][0] << D_Flip_Flop_4bit:reg2.port5
+r[2][1] << D_Flip_Flop_4bit:reg2.port5
+r[2][2] << D_Flip_Flop_4bit:reg2.port5
+r[2][3] << D_Flip_Flop_4bit:reg2.port5
+r[3][0] << D_Flip_Flop_4bit:reg3.port5
+r[3][1] << D_Flip_Flop_4bit:reg3.port5
+r[3][2] << D_Flip_Flop_4bit:reg3.port5
+r[3][3] << D_Flip_Flop_4bit:reg3.port5
+r[4][0] << D_Flip_Flop_4bit:reg4.port5
+r[4][1] << D_Flip_Flop_4bit:reg4.port5
+r[4][2] << D_Flip_Flop_4bit:reg4.port5
+r[4][3] << D_Flip_Flop_4bit:reg4.port5
+r[5][0] << D_Flip_Flop_4bit:reg5.port5
+r[5][1] << D_Flip_Flop_4bit:reg5.port5
+r[5][2] << D_Flip_Flop_4bit:reg5.port5
+r[5][3] << D_Flip_Flop_4bit:reg5.port5
+r[6][0] << D_Flip_Flop_4bit:reg6.port5
+r[6][1] << D_Flip_Flop_4bit:reg6.port5
+r[6][2] << D_Flip_Flop_4bit:reg6.port5
+r[6][3] << D_Flip_Flop_4bit:reg6.port5
+r[7][0] << D_Flip_Flop_4bit:reg7.port5
+r[7][1] << D_Flip_Flop_4bit:reg7.port5
+r[7][2] << D_Flip_Flop_4bit:reg7.port5
+r[7][3] << D_Flip_Flop_4bit:reg7.port5
+
+
+|register_file|Decoder_3_to_8:my_decoder
+a[0] => Decoder0.IN2
+a[1] => Decoder0.IN1
+a[2] => Decoder0.IN0
+y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg0
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg1
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg2
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg3
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg4
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg5
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg6
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register_file|D_Flip_Flop_4bit:reg7
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d[0] => q.DATAB
+d[1] => q.DATAB
+d[2] => q.DATAB
+d[3] => q.DATAB
+ri[0] => q.DATAB
+ri[1] => q.DATAB
+ri[2] => q.DATAB
+ri[3] => q.DATAB
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

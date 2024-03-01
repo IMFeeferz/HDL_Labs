@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at d_flip_flop_4bit.sv(6): always construct contains both blocking and non-blocking assignments File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/d_flip_flop_4bit.sv Line: 6
