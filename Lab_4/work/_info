@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA_lite/20.1
 vDecoder_1_to_8
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1709302316
+Z1 !s110 1709302633
 !i10b 1
 !s100 1U>JHbVR[S:QN:hQCPQE30
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,16 +19,16 @@ I_6Hj@GYIfhmLoQX1gKcO^3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4
-Z5 w1709302313
+Z5 w1709302623
 Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv
 Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv
-!i122 44
+!i122 46
 L0 1 14
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1709302316.000000
+Z9 !s108 1709302633.000000
 Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv|
 !i113 1
@@ -125,7 +125,7 @@ R4
 R5
 R6
 R7
-!i122 44
+!i122 46
 R14
 R8
 r1
@@ -142,17 +142,17 @@ vregister_file
 R0
 R1
 !i10b 1
-!s100 Xl`E:@d6n_`?FLER>N76N0
+!s100 O4Y@<Rmoj4eW??KT4eeB?0
 R2
-IJzfnmOW2PMhC_N6C1a^KY3
+Ii;RUn;QQAj4U?83?oJT_m1
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 44
-L0 28 47
+!i122 46
+L0 28 49
 R8
 r1
 !s85 0
@@ -176,7 +176,7 @@ R4
 w1709255844
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
-!i122 43
+!i122 45
 L0 1 9
 R8
 r1

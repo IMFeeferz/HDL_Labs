@@ -36,14 +36,16 @@ module register_file(	input clk, init, swap,
 	logic en;
 	logic reset;
 	
-	assign b[0] = 000;
-	assign b[1] = 001;
-	assign b[2] = 010;
-	assign b[3] = 100;
-	assign b[4] = 011;
-	assign b[5] = 101;
-	assign b[6] = 110;
-	assign b[7] = 111;
+	// assign b[i] for its respective 3 bit inputs that will get passed into
+	// the D Flip Flop function
+	assign b[0] = 000;// 3'b000
+	assign b[1] = 001;// 3'b001
+	assign b[2] = 010;// 3'b010
+	assign b[3] = 100;// 3'b100
+	assign b[4] = 011;// 3'b011
+	assign b[5] = 101;// 3'b101
+	assign b[6] = 110;// 3'b110
+	assign b[7] = 111;// 3'b111
 
 	// Passing x and y into 2 to 1 3 bit MUX
 	MUX_2_1_3bit mux_3bit_1(x, y, s, mux_output_3bit);
