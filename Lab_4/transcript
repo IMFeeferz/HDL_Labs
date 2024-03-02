@@ -111,3 +111,14 @@ quit -sim
 # Compile of Decoder_3_to_8.sv was successful.
 # Compile of write_port.sv was successful.
 # 9 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.sv was successful.
+# Compile of two_write_ports.sv was successful.
+# 10 compiles, 0 failed with no errors.

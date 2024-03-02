@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA_lite/20.1
 vD_Flip_Flop_4bit
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1709397600
+Z1 !s110 1709399251
 !i10b 1
 !s100 7JnnCcBVE=22F68aQ;ijm2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4
 w1709305738
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv
-!i122 192
+!i122 200
 Z5 L0 1 11
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1709397600.000000
+Z7 !s108 1709399251.000000
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv|
 !i113 1
@@ -74,7 +74,7 @@ R4
 w1709313187
 R10
 R11
-!i122 191
+!i122 199
 R12
 R6
 r1
@@ -166,7 +166,7 @@ R9
 n@m@u@x2_to_1_3_bit
 vMUX_2
 R0
-Z16 !s110 1709397601
+Z16 !s110 1709399252
 !i10b 1
 !s100 aoSJ8P]^N6o21fVTK3nLF0
 R2
@@ -177,13 +177,13 @@ R4
 w1709395496
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv
-!i122 195
+!i122 203
 L0 1 5
 R6
 r1
 !s85 0
 31
-Z17 !s108 1709397601.000000
+Z17 !s108 1709399252.000000
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv|
 !i113 1
@@ -218,7 +218,7 @@ R9
 n@m@u@x_2_1_3bit
 vMUX_8_1
 R0
-R1
+R16
 !i10b 1
 !s100 eiHi>>jRU8O@[DRP41;YV2
 R2
@@ -229,13 +229,13 @@ R4
 Z18 w1709396550
 Z19 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv
 Z20 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv
-!i122 194
+!i122 202
 L0 18 16
 R6
 r1
 !s85 0
 31
-R7
+R17
 Z21 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv|
 Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv|
 !i113 1
@@ -244,7 +244,7 @@ R9
 n@m@u@x_8_1
 vregister_file
 R0
-R1
+R16
 !i10b 1
 !s100 @kB_QGBo6DPH[INiJ0ZQe0
 R2
@@ -255,13 +255,13 @@ R4
 R18
 R19
 R20
-!i122 194
+!i122 202
 L0 35 42
 R6
 r1
 !s85 0
 31
-R7
+R17
 R21
 R22
 !i113 1
@@ -280,7 +280,7 @@ R4
 w1709397591
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv
-!i122 190
+!i122 198
 L0 1 16
 R6
 r1
@@ -305,7 +305,7 @@ R4
 w1709310601
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv
-!i122 193
+!i122 201
 L0 1 53
 R6
 r1
@@ -314,6 +314,31 @@ r1
 R7
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv|
+!i113 1
+R8
+R9
+vtwo_write_ports
+R0
+!s110 1709399253
+!i10b 1
+!s100 iHAPG4JN=I0VE07KNmQMM2
+R2
+IgB7n9U[8@1fC^L6zGN:d]1
+R3
+S1
+R4
+w1709399247
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv
+!i122 206
+Z23 L0 1 7
+R6
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv|
 !i113 1
 R8
 R9
@@ -330,7 +355,7 @@ R4
 w1709396289
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_enable.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_enable.sv
-!i122 196
+!i122 204
 R5
 R6
 r1
@@ -346,17 +371,17 @@ vwrite_port
 R0
 R16
 !i10b 1
-!s100 _Q1l]5T2VBRoek`0mCPl60
+!s100 QcK;YV;92j7]W[1>T]CYj2
 R2
-I@k3XM^85ZW6k1TlZ:CE620
+IJC_eCJi]JB=F5cc<zFA_Y1
 R3
 S1
 R4
-w1709397083
+w1709399047
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_port.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_port.sv
-!i122 197
-L0 1 7
+!i122 205
+R23
 R6
 r1
 !s85 0

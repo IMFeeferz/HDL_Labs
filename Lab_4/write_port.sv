@@ -1,4 +1,4 @@
-module write_port(	input logic [3:0] write_addr,
+module write_port(	input logic [2:0] write_addr,
 			input logic en,
 			output logic w_en[7:0]);
 	
