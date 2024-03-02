@@ -104,5 +104,5 @@ module register_file(	input logic clk, init, swap,
 			output logic [3:0] d[7:0],
 			output logic w_en[7:0]);
 	*/
-	two_write_ports two_ports(x, y, wrt_data_1, wrt_data_2, 1, 1, r, 
+	two_write_ports two_ports(x, y, wrt_data_1, wrt_data_2, 1, 1, r, w_en); 
 endmodule

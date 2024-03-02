@@ -68,14 +68,14 @@ module register_file(	input logic clk, init, swap,
 	assign w_en[7] = en & z[7];
 	 
 	// D Flip Flops r0-r7
-	D_Flip_Flop_4bit reg0(clk, w_en0, reset, d, 4'b0000, r[0]);
-	D_Flip_Flop_4bit reg1(clk, w_en1, reset, d, 4'b0001, r[1]);
-	D_Flip_Flop_4bit reg2(clk, w_en2, reset, d, 4'b0010, r[2]);
-	D_Flip_Flop_4bit reg3(clk, w_en3, reset, d, 4'b0011, r[3]);
-	D_Flip_Flop_4bit reg4(clk, w_en4, reset, d, 4'b0100, r[4]);
-	D_Flip_Flop_4bit reg5(clk, w_en5, reset, d, 4'b0101, r[5]);
-	D_Flip_Flop_4bit reg6(clk, w_en6, reset, d, 4'b0110, r[6]);
-	D_Flip_Flop_4bit reg7(clk, w_en7, reset, d, 4'b0111, r[7]);
+	D_Flip_Flop_4bit reg0(clk, w_en[0], reset, d, 4'b0000, r[0]);
+	D_Flip_Flop_4bit reg1(clk, w_en[1], reset, d, 4'b0001, r[1]);
+	D_Flip_Flop_4bit reg2(clk, w_en[2], reset, d, 4'b0010, r[2]);
+	D_Flip_Flop_4bit reg3(clk, w_en[3], reset, d, 4'b0011, r[3]);
+	D_Flip_Flop_4bit reg4(clk, w_en[4], reset, d, 4'b0100, r[4]);
+	D_Flip_Flop_4bit reg5(clk, w_en[5], reset, d, 4'b0101, r[5]);
+	D_Flip_Flop_4bit reg6(clk, w_en[6], reset, d, 4'b0110, r[6]);
+	D_Flip_Flop_4bit reg7(clk, w_en[7], reset, d, 4'b0111, r[7]);
 
 	// Instantiating MUX
 	/*
