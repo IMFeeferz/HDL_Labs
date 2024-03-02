@@ -42,3 +42,72 @@ run
 quit -sim
 # End time: 12:17:36 on Mar 01,2024, Elapsed time: 0:47:31
 # Errors: 0, Warnings: 1
+# Compile of Swap.sv failed with 3 errors.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of Swap.sv failed with 2 errors.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.sv was successful.
+# 9 compiles, 0 failed with no errors.
