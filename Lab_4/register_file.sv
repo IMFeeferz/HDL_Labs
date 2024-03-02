@@ -15,6 +15,7 @@ module Decoder_3_to_8(	input logic [2:0] a,
 endmodule
 */
 
+/*
 module MUX_8_1(	input logic [3:0] D0, D1, D2, D3, D4, D5, D6, D7, 
 			input [2:0] S,
 			output logic [3:0] y);
@@ -31,11 +32,12 @@ module MUX_8_1(	input logic [3:0] D0, D1, D2, D3, D4, D5, D6, D7,
 			3'b111: y = D7;
 		endcase
 endmodule
+*/
 
 module register_file(	input logic clk, init, swap,
 			input logic [2:0] x, y,
 			output logic [3:0] r[7:0]);	
-	logic z [7:0];
+	logic z [7:0], w_en[7:0];
 	logic [3:0] d;
 	//logic [2:0] wrt_addr, rd_addr;
 	logic reset, en;
@@ -51,14 +53,19 @@ module register_file(	input logic clk, init, swap,
 	Decoder_3_to_8 my_decoder(x, z);
 
 	//assigning AND gates for enables to the D Flip Flops
-	assign w_en0 = en & z[0];
-	assign w_en1 = en & z[1];
-	assign w_en2 = en & z[2];
-	assign w_en3 = en & z[3];
-	assign w_en4 = en & z[4];
-	assign w_en5 = en & z[5];
-	assign w_en6 = en & z[6];
-	assign w_en7 = en & z[7];
+	/*
+	D_Flip_Flop_4bit	(input logic clk, en, reset,
+		 	input logic [3:0] d, ri,
+		 	output logic [3:0] q);
+	*/
+	assign w_en[0] = en & z[0];
+	assign w_en[1] = en & z[1];
+	assign w_en[2] = en & z[2];
+	assign w_en[3] = en & z[3];
+	assign w_en[4] = en & z[4];
+	assign w_en[5] = en & z[5];
+	assign w_en[6] = en & z[6];
+	assign w_en[7] = en & z[7];
 	 
 	// D Flip Flops r0-r7
 	D_Flip_Flop_4bit reg0(clk, w_en0, reset, d, 4'b0000, r[0]);
@@ -70,7 +77,32 @@ module register_file(	input logic clk, init, swap,
 	D_Flip_Flop_4bit reg6(clk, w_en6, reset, d, 4'b0110, r[6]);
 	D_Flip_Flop_4bit reg7(clk, w_en7, reset, d, 4'b0111, r[7]);
 
-	//Instantiating MUX
+	// Instantiating MUX
+	/*
+	MUX_8_1(	input logic [3:0] q[7:0],
+		input logic [2:0] s,
+		output logic [3:0] read_data);
+	*/
+	MUX_8_1 rd_port_1(r, x, read_data_x);
+	MUX_8_1 rd_port_2(r, y, read_data_y);
 	//MUX_8_1 rd_port(r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], rd_addr, rd_data);
 
+	// Calling Swap
+	/*
+	swap(	input logic [3:0] x_data, y_data,
+		input logic swap,
+		output logic [3:0] x_swap, y_swap);
+
+	*/
+	Swap _swap(read_data_x, read_data_y, swap, wrt_data_1, wrt_data_2);
+
+	// Calling two_write_ports
+	/*
+	two_write_ports( input logic [2:0] write_addr_1, write_addr_2,
+			input logic [3:0] write_data_1, write_data_2,
+			input logic en_1, en_2,
+			output logic [3:0] d[7:0],
+			output logic w_en[7:0]);
+	*/
+	two_write_ports two_ports(x, y, wrt_data_1, wrt_data_2, 1, 1, r, w_en); 
 endmodule
