@@ -312,3 +312,41 @@ quit -sim
 # Compile of two_write_ports.sv was successful.
 # Compile of MUX_8_1.sv was successful with warnings.
 # 11 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.sv was successful.
+# Compile of two_write_ports.sv was successful.
+# Compile of MUX_8_1.sv was successful with warnings.
+# 11 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.sv was successful.
+# Compile of two_write_ports.sv was successful.
+# Compile of MUX_8_1.sv was successful with warnings.
+# Compile of register_swap.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of Swap.sv was successful.
+# Compile of Register File.sv was successful.
+# Compile of D_Flip_Flop_4bit.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of MUX_2.sv was successful.
+# Compile of write_enable.sv was successful.
+# Compile of Decoder_3_to_8.sv was successful.
+# Compile of write_port.sv was successful.
+# Compile of two_write_ports.sv was successful.
+# Compile of MUX_8_1.sv was successful with warnings.
+# Compile of register_swap.sv was successful.
+# 12 compiles, 0 failed with no errors.
