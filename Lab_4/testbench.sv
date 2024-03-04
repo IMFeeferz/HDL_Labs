@@ -10,44 +10,87 @@ module testbench();
 
 	initial
 		begin
-			//Test case 1
+			//cycle1 1
 			clk = 0;
 			init = 0;
-			swap = 1;
+			swap = 0;
 			x = 3'b000;
 			y = 3'b111; #10;
 			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
 			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
 				$display("cycle 1 passed.");
 			
-			//Test case 2
+			//Cycle 2
 			clk = 1;
 			init = 0;
-			swap = 1;
+			swap = 0;
 			x = 3'b000;
 			y = 3'b111; #10;
 			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
 			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
 				$display("cycle 2 passed.");
 			
-			//Test case 3
-			clk = 0;
-			init = 1;
-			swap = 1;
-			x = 3'b000;
-			y = 3'b111; #10;
-			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
-			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
-				$display("cylce 3 passed.");
-
-			//Test case 4
+			//Cycle 3
 			clk = 1;
 			init = 1;
-			swap = 1;
+			swap = 0;
 			x = 3'b000;
 			y = 3'b111; #10;
 			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
 			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
-				$display("test 4 failed.");
+				$display("cycle 3 passed.");
+
+			//Cycle 4
+			clk = 0;
+			init = 1;
+			swap = 0;
+			x = 3'b000;
+			y = 3'b111; #10;
+			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
+			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
+				$display("cycle 4 passed.");
+
+			//Test case 1-set r0-7
+			clk = 1;
+			init = 1;
+			swap = 0;
+			x = 3'b000;
+			y = 3'b111; #10;
+			if (r[0] !== 4'b0000  && r[1]!==4'b0001 && r[2]!==4'b0010 && r[3] !== 4'b0011
+			 && r[4] !== 4'b0100 && r[5] !== 4'b0101 && r[6] !== 4'b0110 && r[7] !== 4'b0111)
+				$display("set initial values failed.");
+			//Test case 1-set r0-7
+			clk = 1;
+			init = 1;
+			swap = 0;
+			x = 3'b000;
+			y = 3'b111; #10;
+			//Test case 1-swap 0,7
+			clk = 1;
+			init = 0;
+			swap = 1;
+			x = 3'b000;
+			y = 3'b111; #10;
+			//Test case 1-swap 1,6
+			clk = 1;
+			init = 0;
+			swap = 1;
+			x = 3'b001;
+			y = 3'b110; #10;
+			//Test case 1-swap 2,5
+			clk = 1;
+			init = 0;
+			swap = 1;
+			x = 3'b010;
+			y = 3'b101; #10;
+			//Test case 1-swap 3,4
+			clk = 1;
+			init = 0;
+			swap = 1;
+			x = 3'b011;
+			y = 3'b100; #10;
+			if (r[0] !== 4'b0111  && r[1]!==4'b0110 && r[2]!==4'b0101 && r[3] !== 4'b0100
+			 && r[4] !== 4'b0011 && r[5] !== 4'b0010 && r[6] !== 4'b0001 && r[7] !== 4'b0000)
+				$display("test case 1 failed.");
 		end
 endmodule
