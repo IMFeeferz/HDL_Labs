@@ -1,30 +1,20 @@
-{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_2.sv}
+{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MUX_2
+-- Compiling module swap_xy
 
 Top level modules:
-	MUX_2
+	swap_xy
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_2
+-- Compiling module Decoder_3_to_8
+-- Compiling module write_port
+-- Compiling module write_enable
 -- Compiling module two_write_ports
 
 Top level modules:
 	two_write_ports
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module register_file
-
-Top level modules:
-	register_file
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_port.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_port.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module write_port
-
-Top level modules:
-	write_port
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -33,44 +23,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	testbench
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_enable.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/write_enable.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module write_enable
-
-Top level modules:
-	write_enable
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Decoder_3_to_8.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Decoder_3_to_8.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module swap
-
-Top level modules:
-	swap
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register File.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Decoder_3_to_8
--- Compiling module MUX_8_1
--- Compiling module register_file
-
-Top level modules:
-	MUX_8_1
-	register_file
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/D_Flip_Flop_4bit.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/New folder/Register_File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/New folder/Register_File.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module D_Flip_Flop_4bit
+-- Compiling module Register_File
 
 Top level modules:
-	D_Flip_Flop_4bit
+	Register_File
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_8_1.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_8_1.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_8_1.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MUX_8_1
-** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_8_1.sv(1): (vlog-13314) Defaulting port 'q' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv(1): (vlog-13314) Defaulting port 'q' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
 Top level modules:
 	MUX_8_1

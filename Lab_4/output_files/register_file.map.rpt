@@ -1,5 +1,5 @@
-Analysis & Synthesis report for register_file
-Fri Mar 01 11:33:08 2024
+Analysis & Synthesis report for Register_File
+Mon Mar 04 19:03:03 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,24 +10,8 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Port Connectivity Checks: "D_Flip_Flop_4bit:reg7"
- 12. Port Connectivity Checks: "D_Flip_Flop_4bit:reg6"
- 13. Port Connectivity Checks: "D_Flip_Flop_4bit:reg5"
- 14. Port Connectivity Checks: "D_Flip_Flop_4bit:reg4"
- 15. Port Connectivity Checks: "D_Flip_Flop_4bit:reg3"
- 16. Port Connectivity Checks: "D_Flip_Flop_4bit:reg2"
- 17. Port Connectivity Checks: "D_Flip_Flop_4bit:reg1"
- 18. Port Connectivity Checks: "D_Flip_Flop_4bit:reg0"
- 19. Post-Synthesis Netlist Statistics for Top Partition
- 20. Elapsed Time Per Partition
- 21. Analysis & Synthesis Messages
- 22. Analysis & Synthesis Suppressed Messages
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -54,22 +38,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Mar 01 11:33:08 2024       ;
+; Analysis & Synthesis Status        ; Failed - Mon Mar 04 19:03:03 2024           ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name                      ; register_file                               ;
-; Top-level Entity Name              ; register_file                               ;
+; Revision Name                      ; Register_File                               ;
+; Top-level Entity Name              ; Register_File                               ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 12                                          ;
-;     Total combinational functions  ; 12                                          ;
-;     Dedicated logic registers      ; 8                                           ;
-; Total registers                    ; 8                                           ;
-; Total pins                         ; 41                                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
-; UFM blocks                         ; 0                                           ;
-; ADC blocks                         ; 0                                           ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
+; UFM blocks                         ; N/A until Partition Merge                   ;
+; ADC blocks                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -79,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M08DAF484C8G     ;                    ;
-; Top-level entity name                                            ; register_file      ; register_file      ;
+; Top-level entity name                                            ; Register_File      ; Register_File      ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -168,242 +152,11 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                 ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+---------+
-; register_file.sv                 ; yes             ; User SystemVerilog HDL File        ; C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv    ;         ;
-; d_flip_flop_4bit.sv              ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/d_flip_flop_4bit.sv ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+---------+
-
-
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimated Total logic elements              ; 12         ;
-;                                             ;            ;
-; Total combinational functions               ; 12         ;
-; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 8          ;
-;     -- 3 input functions                    ; 0          ;
-;     -- <=2 input functions                  ; 4          ;
-;                                             ;            ;
-; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 12         ;
-;     -- arithmetic mode                      ; 0          ;
-;                                             ;            ;
-; Total registers                             ; 8          ;
-;     -- Dedicated logic registers            ; 8          ;
-;     -- I/O registers                        ; 0          ;
-;                                             ;            ;
-; I/O pins                                    ; 41         ;
-;                                             ;            ;
-; Embedded Multiplier 9-bit elements          ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; x[2]~input ;
-; Maximum fan-out                             ; 8          ;
-; Total fan-out                               ; 117        ;
-; Average fan-out                             ; 1.15       ;
-+---------------------------------------------+------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                      ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+------------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                  ; Entity Name      ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+------------------+--------------+
-; |register_file             ; 12 (0)              ; 8 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 41   ; 0            ; 0          ; |register_file                       ; register_file    ; work         ;
-;    |D_Flip_Flop_4bit:reg0| ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg0 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg1| ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg1 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg2| ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg2 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg3| ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg3 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg4| ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg4 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg5| ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg5 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg6| ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg6 ; D_Flip_Flop_4bit ; work         ;
-;    |D_Flip_Flop_4bit:reg7| ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |register_file|D_Flip_Flop_4bit:reg7 ; D_Flip_Flop_4bit ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------+------------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                              ;
-+----------------------------------------+----------------------------------------+
-; Register name                          ; Reason for Removal                     ;
-+----------------------------------------+----------------------------------------+
-; D_Flip_Flop_4bit:reg0|q[1..3]          ; Merged with D_Flip_Flop_4bit:reg0|q[0] ;
-; D_Flip_Flop_4bit:reg1|q[2,3]           ; Merged with D_Flip_Flop_4bit:reg1|q[1] ;
-; D_Flip_Flop_4bit:reg2|q[2,3]           ; Merged with D_Flip_Flop_4bit:reg2|q[0] ;
-; D_Flip_Flop_4bit:reg3|q[1]             ; Merged with D_Flip_Flop_4bit:reg3|q[0] ;
-; D_Flip_Flop_4bit:reg3|q[3]             ; Merged with D_Flip_Flop_4bit:reg3|q[2] ;
-; D_Flip_Flop_4bit:reg4|q[1,3]           ; Merged with D_Flip_Flop_4bit:reg4|q[0] ;
-; D_Flip_Flop_4bit:reg5|q[2]             ; Merged with D_Flip_Flop_4bit:reg5|q[0] ;
-; D_Flip_Flop_4bit:reg5|q[3]             ; Merged with D_Flip_Flop_4bit:reg5|q[1] ;
-; D_Flip_Flop_4bit:reg6|q[3]             ; Merged with D_Flip_Flop_4bit:reg6|q[0] ;
-; D_Flip_Flop_4bit:reg6|q[2]             ; Merged with D_Flip_Flop_4bit:reg6|q[1] ;
-; D_Flip_Flop_4bit:reg7|q[1,2]           ; Merged with D_Flip_Flop_4bit:reg7|q[0] ;
-; D_Flip_Flop_4bit:reg1|q[0]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg2|q[1]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg3|q[0]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg4|q[2]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg5|q[0]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg6|q[1]             ; Stuck at VCC due to stuck port data_in ;
-; D_Flip_Flop_4bit:reg7|q[0]             ; Stuck at VCC due to stuck port data_in ;
-; Total Number of Removed Registers = 24 ;                                        ;
-+----------------------------------------+----------------------------------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 8     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                          ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg7|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg6|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg5|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg4|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg3|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg2|q[0] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |register_file|D_Flip_Flop_4bit:reg1|q[0] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg7" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[2..0] ; Input ; Info     ; Stuck at VCC        ;
-; ri[3]    ; Input ; Info     ; Stuck at GND        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg6" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[2..1] ; Input ; Info     ; Stuck at VCC        ;
-; ri[3]    ; Input ; Info     ; Stuck at GND        ;
-; ri[0]    ; Input ; Info     ; Stuck at GND        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg5" ;
-+-------+-------+----------+------------------------+
-; Port  ; Type  ; Severity ; Details                ;
-+-------+-------+----------+------------------------+
-; ri[3] ; Input ; Info     ; Stuck at GND           ;
-; ri[2] ; Input ; Info     ; Stuck at VCC           ;
-; ri[1] ; Input ; Info     ; Stuck at GND           ;
-; ri[0] ; Input ; Info     ; Stuck at VCC           ;
-+-------+-------+----------+------------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg4" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[1..0] ; Input ; Info     ; Stuck at GND        ;
-; ri[3]    ; Input ; Info     ; Stuck at GND        ;
-; ri[2]    ; Input ; Info     ; Stuck at VCC        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg3" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[1..0] ; Input ; Info     ; Stuck at VCC        ;
-; ri[3..2] ; Input ; Info     ; Stuck at GND        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg2" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[3..2] ; Input ; Info     ; Stuck at GND        ;
-; ri[1]    ; Input ; Info     ; Stuck at VCC        ;
-; ri[0]    ; Input ; Info     ; Stuck at GND        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg1" ;
-+----------+-------+----------+---------------------+
-; Port     ; Type  ; Severity ; Details             ;
-+----------+-------+----------+---------------------+
-; ri[3..1] ; Input ; Info     ; Stuck at GND        ;
-; ri[0]    ; Input ; Info     ; Stuck at VCC        ;
-+----------+-------+----------+---------------------+
-
-
-+---------------------------------------------------+
-; Port Connectivity Checks: "D_Flip_Flop_4bit:reg0" ;
-+------+-------+----------+-------------------------+
-; Port ; Type  ; Severity ; Details                 ;
-+------+-------+----------+-------------------------+
-; d    ; Input ; Info     ; Stuck at VCC            ;
-; ri   ; Input ; Info     ; Stuck at GND            ;
-+------+-------+----------+-------------------------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; boundary_port         ; 41                          ;
-; cycloneiii_ff         ; 8                           ;
-;     plain             ; 8                           ;
-; cycloneiii_lcell_comb ; 13                          ;
-;     normal            ; 13                          ;
-;         0 data inputs ; 1                           ;
-;         2 data inputs ; 4                           ;
-;         4 data inputs ; 8                           ;
-;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.46                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:01     ;
-+----------------+--------------+
 
 
 +-------------------------------+
@@ -412,63 +165,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Mar 01 11:32:47 2024
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off register_file -c register_file
+    Info: Processing started: Mon Mar 04 19:02:48 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Register_File -c Register_File
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 3 design units, including 3 entities, in source file register_file.sv
-    Info (12023): Found entity 1: Decoder_3_to_8 File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 1
-    Info (12023): Found entity 2: MUX_8_1 File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 16
-    Info (12023): Found entity 3: register_file File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 34
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(53): created implicit net for "w_en0" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 53
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(54): created implicit net for "w_en1" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 54
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(55): created implicit net for "w_en2" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 55
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(56): created implicit net for "w_en3" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 56
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(57): created implicit net for "w_en4" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 57
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(58): created implicit net for "w_en5" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 58
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(59): created implicit net for "w_en6" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 59
-Warning (10236): Verilog HDL Implicit Net warning at register_file.sv(60): created implicit net for "w_en7" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 60
-Info (12127): Elaborating entity "register_file" for the top level hierarchy
-Info (12128): Elaborating entity "Decoder_3_to_8" for hierarchy "Decoder_3_to_8:my_decoder" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 50
-Warning (12125): Using design file d_flip_flop_4bit.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: D_Flip_Flop_4bit File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/d_flip_flop_4bit.sv Line: 1
-Info (12128): Elaborating entity "D_Flip_Flop_4bit" for hierarchy "D_Flip_Flop_4bit:reg0" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 63
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "r[1][0]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[2][1]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[3][0]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[3][1]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[4][2]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[5][0]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[5][2]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[6][1]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[6][2]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[7][0]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[7][1]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-    Warning (13410): Pin "r[7][2]" is stuck at VCC File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 36
-Info (286030): Timing-Driven Synthesis is running
-Info (144001): Generated suppressed messages file C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/output_files/register_file.map.smsg
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 4 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "swap" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 34
-    Warning (15610): No output dependent on input pin "y[0]" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 35
-    Warning (15610): No output dependent on input pin "y[1]" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 35
-    Warning (15610): No output dependent on input pin "y[2]" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/register_file.sv Line: 35
-Info (21057): Implemented 53 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 9 input pins
-    Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 12 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
-    Info: Peak virtual memory: 4760 megabytes
-    Info: Processing ended: Fri Mar 01 11:33:08 2024
-    Info: Elapsed time: 00:00:21
-    Info: Total CPU time (on all processors): 00:00:13
+Info (12021): Found 2 design units, including 2 entities, in source file register_file.sv
+    Info (12023): Found entity 1: D_Flip_Flop_4bit File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 1
+    Info (12023): Found entity 2: Register_File File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 13
+Error (10703): SystemVerilog error at Register_File.sv(24): can't resolve aggregate expression in connection to port 4 on instance "write" because the instance has no module binding File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 24
+Error (10703): SystemVerilog error at Register_File.sv(24): can't resolve aggregate expression in connection to port 5 on instance "write" because the instance has no module binding File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 24
+Error (10703): SystemVerilog error at Register_File.sv(38): can't resolve aggregate expression in connection to port 0 on instance "rd_port1" because the instance has no module binding File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 38
+Error (10703): SystemVerilog error at Register_File.sv(39): can't resolve aggregate expression in connection to port 0 on instance "rd_port2" because the instance has no module binding File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv Line: 39
+Info (144001): Generated suppressed messages file C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/output_files/Register_File.map.smsg
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 4 errors, 1 warning
+    Error: Peak virtual memory: 4704 megabytes
+    Error: Processing ended: Mon Mar 04 19:03:03 2024
+    Error: Elapsed time: 00:00:15
+    Error: Total CPU time (on all processors): 00:00:14
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/output_files/register_file.map.smsg.
+The suppressed messages can be found in C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/output_files/Register_File.map.smsg.
 
 
