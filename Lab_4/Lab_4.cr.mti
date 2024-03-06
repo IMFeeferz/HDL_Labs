@@ -1,11 +1,4 @@
-{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module swap_xy
-
-Top level modules:
-	swap_xy
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv}
+{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module MUX_2
 -- Compiling module Decoder_3_to_8
@@ -16,12 +9,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	two_write_ports
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module testbench
+-- Compiling module swap_xy
 
 Top level modules:
-	testbench
+	swap_xy
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/New folder/Register_File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/New folder/Register_File.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -30,6 +23,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	Register_File
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/MUX_8_1.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
