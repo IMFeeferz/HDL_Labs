@@ -23,14 +23,14 @@ module testbench();
       clk <= 1; # 5; clk <= 0; # 5;
     end
 
-  // check that 7 gets written to address 84
+  // check that 28 gets written to address 20
   always@(negedge clk)
     begin
       if(memwrite) begin
-        if(dataadr === 84 & writedata === 7) begin
+        if(dataadr === 20 & writedata === 28) begin
           $display("Simulation succeeded");
           $stop;
-        end else if (dataadr !== 80) begin
+        end else if (dataadr !== 20) begin
           $display("Simulation failed");
           $stop;
         end
