@@ -71,6 +71,8 @@ module maindec(input  logic [5:0] op,
       6'b000010: controls = 9'b000000100; //J
       6'b001010: controls = 9'b101000011; //SLTI
       6'b000101: controls = 9'b000100010; // bne
+      6'b000000: controls = 9'b001000010; // SLTU (treated as positive number)
+      6'b000000: controls = 9'b0x010x010; // BLE
       default:   controls = 9'bxxxxxxxxx; //???
     endcase
 endmodule
@@ -91,6 +93,8 @@ module aludec(input  logic [5:0] funct,
           6'b100101: alucontrol = 3'b001; // OR
           6'b101010: alucontrol = 3'b111; // SLT
 	  6'b000001: alucontrol = 3'b110; // bne-sub
+	  6'b101011: alucontrol = 3'b110; // STLU
+	  6'b101010: alucontrol = 3'b110; // BLE
           default:   alucontrol = 3'bxxx; // ???   //
         endcase
     endcase
@@ -132,7 +136,7 @@ module datapath(input  logic        clk, reset,
 
   // ALU logic
   mux2 #(32)  srcbmux(writedata, signimm, alusrc, srcb);
-  alu         alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluout), .Zero(zero));
+  mips_alu         alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluout), .Zero(zero));
 
 endmodule
 
