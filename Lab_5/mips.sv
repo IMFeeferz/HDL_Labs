@@ -35,13 +35,17 @@ module controller(input  logic [5:0] op, funct,
 
   logic [1:0] aluop;
   logic       branch;
-
+  logic	      z;
   maindec md(op, memtoreg, memwrite, branch,
              alusrc, regdst, regwrite, jump,
              aluop);
   aludec  ad(funct, aluop, alucontrol);
-
-  assign pcsrc = branch & zero;
+  always_comb
+    case(op)
+       6'b000101: z = ~zero; // BNE
+       default:   z = zero; //BEQ
+    endcase
+  assign pcsrc = branch & z;
 endmodule
 
 module maindec(input  logic [5:0] op,
@@ -65,6 +69,8 @@ module maindec(input  logic [5:0] op,
       6'b000100: controls = 9'b000100001; //BEQ
       6'b001000: controls = 9'b101000000; //ADDI
       6'b000010: controls = 9'b000000100; //J
+      6'b001010: controls = 9'b101000011; //SLTI
+      6'b000101: controls = 9'b000100010; // bne
       default:   controls = 9'bxxxxxxxxx; //???
     endcase
 endmodule
@@ -77,13 +83,15 @@ module aludec(input  logic [5:0] funct,
     case(aluop)
       2'b00: alucontrol = 3'b010;  // add
       2'b01: alucontrol = 3'b110;  // sub
-      default: case(funct)          // RTYPE
+      2'b11: alucontrol = 3'b111;  //  SLTi
+      2'b10: case(funct)          // RTYPE        
           6'b100000: alucontrol = 3'b010; // ADD
           6'b100010: alucontrol = 3'b110; // SUB
           6'b100100: alucontrol = 3'b000; // AND
           6'b100101: alucontrol = 3'b001; // OR
           6'b101010: alucontrol = 3'b111; // SLT
-          default:   alucontrol = 3'bxxx; // ???
+	  6'b000001: alucontrol = 3'b110; // bne-sub
+          default:   alucontrol = 3'bxxx; // ???   //
         endcase
     endcase
 endmodule
@@ -124,6 +132,7 @@ module datapath(input  logic        clk, reset,
 
   // ALU logic
   mux2 #(32)  srcbmux(writedata, signimm, alusrc, srcb);
-  alu         alu(.a(srca), .b(srcb), .f(alucontrol), .y(aluout), .zero(zero));
+  alu         alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluout), .Zero(zero));
+
 endmodule
 
