@@ -34,14 +34,14 @@ module controller(input  logic [5:0] op, funct,
                   output logic [2:0] alucontrol);
   logic [1:0] aluop;
   logic       branch;
-  logic	      z;
+  logic	      z;// Part B and C
 
   maindec md(funct, op, memtoreg, memwrite, branch,
              alusrc, regdst, regwrite, jump,
              aluop);
   aludec  ad(funct, aluop, alucontrol);
 
-  always_comb
+  always_comb // Part B and C
     case(op)
        6'b000101: z = ~zero; // BNE
        6'b111111: z = ~zero;//BLE
@@ -67,7 +67,7 @@ module maindec(input  logic [5:0] funct,
 
   always_comb
     case(op)
-      6'b000000: case(funct)
+      6'b000000: case(funct) // Part B and C
 		   6'b101011: controls = 9'b110000010;//sltu
 		   default:   controls = 9'b110000010; //Rtype
 		 endcase
@@ -97,6 +97,7 @@ module aludec(input  logic [5:0] funct,
           6'b100010: alucontrol = 3'b110; // SUB
           6'b100100: alucontrol = 3'b000; // AND
           6'b100101: alucontrol = 3'b001; // OR
+	  6'b101010: alucontrol = 3'b111; // SLT
           6'b110110: alucontrol = 3'b111; // SLT/ble
 	  6'b101011: alucontrol = 3'b111; // SLT/sltu
 	  6'b000001: alucontrol = 3'b110; // bne-sub
@@ -141,7 +142,7 @@ module datapath(input  logic        clk, reset,
 
   // ALU logic
   mux2 #(32)  srcbmux(writedata, signimm, alusrc, srcb);
-  alu         alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluout), .Zero(zero));
+  mips_alu         alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluout), .Zero(zero));
 
 endmodule
 

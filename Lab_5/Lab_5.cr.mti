@@ -5,13 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	testbench
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module overflow
-
-Top level modules:
-	overflow
-
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module gpbit
@@ -25,6 +18,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ppa_32bit
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module overflow
+
+Top level modules:
+	overflow
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dont_care_generate
+
+Top level modules:
+	dont_care_generate
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -45,13 +52,6 @@ Top level modules:
 	flopenr
 	mux2
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module dont_care_generate
-
-Top level modules:
-	dont_care_generate
-
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module dmem
@@ -61,21 +61,12 @@ Top level modules:
 	dmem
 	imem
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module top
+-- Compiling module pattern_match
 
 Top level modules:
-	top
-
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux2_1
--- Compiling module exact_match
--- Compiling module appx_match
-
-Top level modules:
-	appx_match
+	pattern_match
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -87,11 +78,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mips_alu
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module pattern_match
+-- Compiling module mux2_1
+-- Compiling module exact_match
+-- Compiling module appx_match
 
 Top level modules:
-	pattern_match
+	appx_match
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
 
 } {} {}}

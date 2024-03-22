@@ -32,23 +32,27 @@ module controller(input  logic [5:0] op, funct,
                   output logic       regdst, regwrite,
                   output logic       jump,
                   output logic [2:0] alucontrol);
-
   logic [1:0] aluop;
   logic       branch;
   logic	      z;
-  maindec md(op, memtoreg, memwrite, branch,
+
+  maindec md(funct, op, memtoreg, memwrite, branch,
              alusrc, regdst, regwrite, jump,
              aluop);
   aludec  ad(funct, aluop, alucontrol);
+
   always_comb
     case(op)
        6'b000101: z = ~zero; // BNE
+       6'b111111: z = ~zero;//BLE
        default:   z = zero; //BEQ
     endcase
+
   assign pcsrc = branch & z;
 endmodule
 
-module maindec(input  logic [5:0] op,
+module maindec(input  logic [5:0] funct,
+	       input  logic [5:0] op,
                output logic       memtoreg, memwrite,
                output logic       branch, alusrc,
                output logic       regdst, regwrite,
@@ -63,7 +67,10 @@ module maindec(input  logic [5:0] op,
 
   always_comb
     case(op)
-      6'b000000: controls = 9'b110000010; //Rtype
+      6'b000000: case(funct)
+		   6'b101011: controls = 9'b110000010;//sltu
+		   default:   controls = 9'b110000010; //Rtype
+		 endcase
       6'b100011: controls = 9'b101001000; //LW
       6'b101011: controls = 9'b001010000; //SW
       6'b000100: controls = 9'b000100001; //BEQ
@@ -71,8 +78,7 @@ module maindec(input  logic [5:0] op,
       6'b000010: controls = 9'b000000100; //J
       6'b001010: controls = 9'b101000011; //SLTI
       6'b000101: controls = 9'b000100010; // bne
-      6'b000000: controls = 9'b001000010 // SLTU (treated as positive number)
-      6'b000000: controls = 9'b0x010x010 // BLE
+      6'b111111: controls = 9'b000100010;//ble
       default:   controls = 9'bxxxxxxxxx; //???
     endcase
 endmodule
@@ -91,10 +97,10 @@ module aludec(input  logic [5:0] funct,
           6'b100010: alucontrol = 3'b110; // SUB
           6'b100100: alucontrol = 3'b000; // AND
           6'b100101: alucontrol = 3'b001; // OR
-          6'b101010: alucontrol = 3'b111; // SLT
+	  6'b101010: alucontrol = 3'b111; // SLT
+          6'b110110: alucontrol = 3'b111; // SLT/ble
+	  6'b101011: alucontrol = 3'b111; // SLT/sltu
 	  6'b000001: alucontrol = 3'b110; // bne-sub
-	  6'b101011: alucontrol = 3'b110 // STLU
-	  6'b101010: alucontrol = 3'b110 // BLE
           default:   alucontrol = 3'bxxx; // ???   //
         endcase
     endcase

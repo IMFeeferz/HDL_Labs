@@ -28,7 +28,7 @@ project open {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/Lab_5}
 # 11 compiles, 0 failed with no errors.
 vsim -gui work.testbench
 # vsim -gui work.testbench 
-# Start time: 11:16:48 on Mar 19,2024
+# Start time: 16:45:02 on Mar 20,2024
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.top
@@ -44,14 +44,78 @@ vsim -gui work.testbench
 # Loading work.regfile
 # Loading work.signext
 # ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv Line: 135
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv Line: 145
 #         Searched libraries:
 #             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/work
 # Loading work.imem
 # Loading work.dmem
 # Error loading design
-# End time: 11:16:49 on Mar 19,2024, Elapsed time: 0:00:01
+# End time: 16:45:02 on Mar 20,2024, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 3
+# Compile of mips.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of overflow.sv was successful.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:45:31 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv Line: 145
+#         Searched libraries:
+#             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/work
+# Loading work.imem
+# Loading work.dmem
+# Error loading design
+# End time: 16:45:32 on Mar 20,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of pattern_match.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:45:49 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv Line: 145
+#         Searched libraries:
+#             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/work
+# Loading work.imem
+# Loading work.dmem
+# Error loading design
+# End time: 16:45:49 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
 # Compile of mips.sv was successful.
 # Compile of mipsmem.sv was successful.
 # Compile of mipsparts.sv was successful.
@@ -66,7 +130,7 @@ vsim -gui work.testbench
 # 11 compiles, 0 failed with no errors.
 vsim -gui work.testbench
 # vsim -gui work.testbench 
-# Start time: 11:20:46 on Mar 19,2024
+# Start time: 16:46:22 on Mar 20,2024
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.top
@@ -105,83 +169,89 @@ add wave -position insertpoint sim:/testbench/dut/*
 run
 # Simulation failed
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 75 ps  Iteration: 1  Instance: /testbench
+#    Time: 145 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
 run
 # Simulation failed
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 105 ps  Iteration: 1  Instance: /testbench
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
 run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 165 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 225 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/aluout
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run
 # Simulation failed
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 75 ps  Iteration: 1  Instance: /testbench
+#    Time: 145 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
 run
 # Simulation failed
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 105 ps  Iteration: 1  Instance: /testbench
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
 run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 165 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 225 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation succeeded
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(32)
-#    Time: 265 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 32
-add wave -position insertpoint sim:/testbench/dut/mips/*
-restart -f
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 75 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 105 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 165 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation failed
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
-#    Time: 225 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
-run
-# Simulation succeeded
-# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(32)
-#    Time: 265 ps  Iteration: 1  Instance: /testbench
-# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 32
-run
+quit -sim
+# End time: 16:56:01 on Mar 20,2024, Elapsed time: 0:09:39
+# Errors: 0, Warnings: 1
+# Compile of mips.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:56:40 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.imem
+# Loading work.dmem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+add wave -position insertpoint  \
+sim:/testbench/dut/instr
 add wave -position insertpoint  \
 sim:/testbench/dut/mips/dp/srca
 add wave -position insertpoint  \
 sim:/testbench/dut/mips/dp/srcb
-restart -f
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/aluout
 run
 # Simulation failed
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
@@ -203,59 +273,168 @@ run
 #    Time: 225 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
 run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 265 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+quit -sim
+# End time: 17:03:55 on Mar 20,2024, Elapsed time: 0:07:15
+# Errors: 0, Warnings: 2
+# Compile of mips.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:04:12 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.imem
+# Loading work.dmem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+add wave -position insertpoint sim:/testbench/dut/*
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/aluout
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 145 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 175 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+quit -sim
+# End time: 17:11:43 on Mar 20,2024, Elapsed time: 0:07:31
+# Errors: 0, Warnings: 2
+# Compile of mips.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:12:11 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.sl2
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.imem
+# Loading work.dmem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+add wave -position insertpoint  \
+sim:/testbench/dut/instr
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/srca
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/srcb
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/aluout
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 95 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 105 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 195 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 205 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(35)
+#    Time: 295 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 35
+run
 # Simulation succeeded
 # ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv(32)
-#    Time: 265 ps  Iteration: 1  Instance: /testbench
+#    Time: 345 ps  Iteration: 1  Instance: /testbench
 # Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv line 32
 run
 quit -sim
-# End time: 11:52:20 on Mar 19,2024, Elapsed time: 0:31:34
-# Errors: 0, Warnings: 1
-# Compile of mips.sv failed with 2 errors.
-# Compile of mipsmem.sv was successful.
-# Compile of mipsparts.sv was successful.
-# Compile of mipstest.sv was successful.
-# Compile of mipstop.sv was successful.
-# Compile of appx_match_check.sv was successful.
-# Compile of dont_care_generate.sv was successful.
-# Compile of mips_alu.sv was successful.
-# Compile of overflow.sv was successful.
-# Compile of pattern_match.sv was successful.
-# Compile of ppa_32bit.sv was successful.
-# 11 compiles, 1 failed with 2 errors.
-# Compile of mips.sv failed with 2 errors.
-# Compile of mipsmem.sv was successful.
-# Compile of mipsparts.sv was successful.
-# Compile of mipstest.sv was successful.
-# Compile of mipstop.sv was successful.
-# Compile of appx_match_check.sv was successful.
-# Compile of dont_care_generate.sv was successful.
-# Compile of mips_alu.sv was successful.
-# Compile of overflow.sv was successful.
-# Compile of pattern_match.sv was successful.
-# Compile of ppa_32bit.sv was successful.
-# 11 compiles, 1 failed with 2 errors.
-# Compile of mips.sv was successful.
-# Compile of mipsmem.sv was successful.
-# Compile of mipsparts.sv was successful.
-# Compile of mipstest.sv was successful.
-# Compile of mipstop.sv was successful.
-# Compile of appx_match_check.sv was successful.
-# Compile of dont_care_generate.sv was successful.
-# Compile of mips_alu.sv was successful.
-# Compile of overflow.sv was successful.
-# Compile of pattern_match.sv was successful.
-# Compile of ppa_32bit.sv was successful.
-# 11 compiles, 0 failed with no errors.
-# Compile of mips.sv was successful.
-# Compile of mipsmem.sv was successful.
-# Compile of mipsparts.sv was successful.
-# Compile of mipstest.sv was successful.
-# Compile of mipstop.sv was successful.
-# Compile of appx_match_check.sv was successful.
-# Compile of dont_care_generate.sv was successful.
-# Compile of mips_alu.sv was successful.
-# Compile of overflow.sv was successful.
-# Compile of pattern_match.sv was successful.
-# Compile of ppa_32bit.sv was successful.
-# 11 compiles, 0 failed with no errors.
+# End time: 18:15:38 on Mar 20,2024, Elapsed time: 1:03:27
+# Errors: 0, Warnings: 2

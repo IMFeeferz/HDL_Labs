@@ -27,10 +27,10 @@ module testbench();
   always@(negedge clk)
     begin
       if(memwrite) begin
-        if(dataadr === 20 & writedata === 28) begin
+        if(dataadr === 16 & writedata === -6) begin
           $display("Simulation succeeded");
           $stop;
-        end else if (dataadr !== 20) begin
+        end else if (dataadr !== 40) begin
           $display("Simulation failed");
           $stop;
         end

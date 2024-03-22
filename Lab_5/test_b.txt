@@ -1,0 +1,37 @@
+# test_b.asm
+L1:
+addi $9, $0, 40
+bne $9, $0, L1
+addi $9, $9, 10
+L2:
+addi $8, $0, -3
+beq $9, $0, L2
+slti $10, $8, -1 
+sw $12, 12($9)
+slti $10, $8, -5
+loop:
+addi $10, $10, 3
+sw $10, -8($9)
+addi $9, $9, -4
+slti $11, $9, 30
+bne $11, $0, out
+j loop
+out:
+sw $9, 20($0)
+
+# Machine Language Code
+20090028
+15200001
+2129000a
+2008fffd
+1120fffe
+290affff
+ad2a000c
+290afffb
+214a0003
+ad2afff8
+2129fffc
+292b001e
+15600001
+08100008
+ac090014
