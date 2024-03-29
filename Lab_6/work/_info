@@ -1,0 +1,292 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5
+vCAM
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1711720017
+!i10b 1
+!s100 GGCzm8m^NOPWna<V[Gb242
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3n_U`A`UQQY;WhP9R_ne?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6
+w1711720014
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv
+!i122 20
+L0 1 6
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1711720017.000000
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@c@a@m
+vD_Flip_Flop_4bit
+R0
+R1
+!i10b 1
+!s100 7JnnCcBVE=22F68aQ;ijm2
+R2
+Il7@d7>4:]CAUQbTaljJTY0
+R3
+S1
+R4
+Z9 w1709584501
+Z10 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv
+Z11 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv
+!i122 22
+L0 1 11
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv|
+!i113 1
+R7
+R8
+n@d_@flip_@flop_4bit
+vDecoder_3_to_8
+R0
+R1
+!i10b 1
+!s100 inAT>CYgLNL9=DH4ZZ9;L3
+R2
+Ifo9>faD0BcYLmH9NQVO9<2
+R3
+S1
+R4
+Z14 w1709572705
+Z15 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv
+Z16 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv
+!i122 25
+L0 6 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv|
+!i113 1
+R7
+R8
+n@decoder_3_to_8
+vMUX_2
+R0
+R1
+!i10b 1
+!s100 aoSJ8P]^N6o21fVTK3nLF0
+R2
+IQOkCW=ZkzPZR`]IgBeoo:1
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 25
+L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+Z18 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv|
+R17
+!i113 1
+R7
+R8
+n@m@u@x_2
+vMUX_8_1
+R0
+R1
+!i10b 1
+!s100 =Q8KhPD^MW6iOooa5R]Ab0
+R2
+IGA5Z?822j0PH=RKn82KmT0
+R3
+S1
+R4
+R14
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv
+!i122 21
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv|
+!i113 1
+R7
+R8
+n@m@u@x_8_1
+vRegister_File
+R0
+R1
+!i10b 1
+!s100 _C0BLWa>V;PN]0gISWg7`1
+R2
+I=dRAnOnDiAESRnKTCVigf2
+R3
+S1
+R4
+R9
+R10
+R11
+!i122 22
+L0 13 33
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R7
+R8
+n@register_@file
+vswap_xy
+R0
+R1
+!i10b 1
+!s100 j?4Noo_jPfVT_WP1?K9Km2
+R2
+Ih<6gGg9gCXZ4bID?W3<L]1
+R3
+S1
+R4
+R14
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv
+!i122 23
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv|
+!i113 1
+R7
+R8
+vtestbench
+R0
+R1
+!i10b 1
+!s100 :];0<<MVY9jZYBUjY?;U?0
+R2
+I:9k]?ZVP?dm8?nZcM<^Ak1
+R3
+S1
+R4
+w1709602055
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv
+!i122 24
+L0 1 386
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/testbench.sv|
+!i113 1
+R7
+R8
+vtwo_write_ports
+R0
+R1
+!i10b 1
+!s100 efAhlR@fn6HMl@[fD6S3f2
+R2
+IM]eOLC=CSVNi_^<AW=nXj0
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 25
+L0 50 20
+R5
+r1
+!s85 0
+31
+R6
+R18
+R17
+!i113 1
+R7
+R8
+vwrite_enable
+R0
+R1
+!i10b 1
+!s100 aP0l:=o^Ok@KGbRmXJjVM3
+R2
+Ih]<a@@WI>`eSG>O?ZeFJ73
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 25
+L0 36 14
+R5
+r1
+!s85 0
+31
+R6
+R18
+R17
+!i113 1
+R7
+R8
+vwrite_port
+R0
+R1
+!i10b 1
+!s100 AYgclWFXz2E_4lbd^DggX1
+R2
+ID6>oJP^?9DKhV4;8Gm0VI0
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 25
+L0 20 16
+R5
+r1
+!s85 0
+31
+R6
+R18
+R17
+!i113 1
+R7
+R8

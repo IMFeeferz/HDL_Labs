@@ -1,0 +1,6 @@
+module CAM(input logic clk, init, setD,
+	   input logic [3:0] D_lookup, newD,
+	   output logic valid,
+	   output logic [2:0] minAddr, maxAddr);
+
+endmodule

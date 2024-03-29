@@ -11,7 +11,7 @@ cModel Technology
 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4
 vadder
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1710972719
+Z1 !s110 1711401866
 !i10b 1
 !s100 2@IO0g3D:0RKPd`IAn?bQ1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5
 Z5 w1709744570
 Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv
 Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv
-!i122 375
+!i122 386
 L0 20 5
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1710972719.000000
+Z9 !s108 1711401866.000000
 Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsparts.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z12 o-work work -sv
 Z13 tCvgOpt 0
 valudec
 R0
-R1
+Z14 !s110 1711401865
 !i10b 1
 !s100 zA^HldS_`^c?7kE7Tdo_61
 R2
@@ -44,24 +44,24 @@ IeHP8gVeNm5VPjOVMzY`Re2
 R3
 S1
 R4
-Z14 w1710971160
-Z15 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv
-Z16 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv
-!i122 373
+Z15 w1710977131
+Z16 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv
+Z17 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv
+!i122 384
 L0 86 22
 R8
 r1
 !s85 0
 31
-R9
-Z17 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv|
-Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv|
+Z18 !s108 1711401865.000000
+Z19 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips.sv|
 !i113 1
 R12
 R13
 vand_32bit
 R0
-Z19 !s110 1710972720
+R1
 !i10b 1
 !s100 ;MNLOCZMY^oL56Qez:d?Q2
 R2
@@ -69,16 +69,16 @@ I[VV64fk[?z6=aQNeP7GI91
 R3
 S1
 R4
-Z20 w1709846852
-Z21 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv
-Z22 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv
-!i122 380
-Z23 L0 6 4
+Z21 w1709846852
+Z22 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv
+Z23 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv
+!i122 391
+Z24 L0 6 4
 R8
 r1
 !s85 0
 31
-Z24 !s108 1710972720.000000
+R9
 Z25 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv|
 Z26 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/mips_alu.sv|
 !i113 1
@@ -86,7 +86,7 @@ R12
 R13
 vappx_match
 R0
-R19
+R1
 !i10b 1
 !s100 zN@hl;<>`nOWc48lnJORf3
 R2
@@ -97,13 +97,13 @@ R4
 Z27 w1708114945
 Z28 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv
 Z29 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv
-!i122 378
+!i122 389
 L0 16 21
 R8
 r1
 !s85 0
 31
-R24
+R9
 Z30 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv|
 Z31 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/appx_match_check.sv|
 !i113 1
@@ -111,7 +111,7 @@ R12
 R13
 vcarry_generate
 R0
-R19
+Z32 !s110 1711401867
 !i10b 1
 !s100 AK5[FBVY6LCYPdcH;cLYl2
 R2
@@ -119,24 +119,24 @@ I1VllN=U?k>ad:iLMHFPlS2
 R3
 S1
 R4
-Z32 w1708037712
-Z33 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv
-Z34 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv
-!i122 383
+Z33 w1708037712
+Z34 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv
+Z35 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv
+!i122 394
 L0 15 6
 R8
 r1
 !s85 0
 31
-R24
+R9
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv|
-Z35 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv|
+Z36 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv|
 !i113 1
 R12
 R13
 vcontroller
 R0
-R1
+R14
 !i10b 1
 !s100 5lZ>ZbXzTjWL7z>5LoH?W0
 R2
@@ -144,24 +144,24 @@ IDzNSFS`MO2=Dec<8fM;9_2
 R3
 S1
 R4
-R14
 R15
 R16
-!i122 373
+R17
+!i122 384
 L0 28 25
 R8
 r1
 !s85 0
 31
-R9
-R17
 R18
+R19
+R20
 !i113 1
 R12
 R13
 vdatapath
 R0
-R1
+R14
 !i10b 1
 !s100 `=9>;KZHSCP`=ZZ`81T5F3
 R2
@@ -169,18 +169,18 @@ ID^m;>T?`MRbd;j4?1m1OD1
 R3
 S1
 R4
-R14
 R15
 R16
-!i122 373
+R17
+!i122 384
 L0 109 39
 R8
 r1
 !s85 0
 31
-R9
-R17
 R18
+R19
+R20
 !i113 1
 R12
 R13
@@ -194,24 +194,24 @@ I1BCg?OJ8@:8JeJ0f:3X<k2
 R3
 S1
 R4
-Z36 w1710972717
-Z37 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv
-Z38 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv
-!i122 374
+Z37 w1710972717
+Z38 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv
+Z39 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv
+!i122 385
 L0 3 12
 R8
 r1
 !s85 0
 31
-R9
-Z39 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv|
-Z40 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv|
+R18
+Z40 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv|
+Z41 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipsmem.sv|
 !i113 1
 R12
 R13
 vdont_care_generate
 R0
-R19
+R1
 !i10b 1
 !s100 Ha?0F1`?mY?ll=bM=`=:o3
 R2
@@ -222,13 +222,13 @@ R4
 R27
 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv
-!i122 379
+!i122 390
 L0 9 18
 R8
 r1
 !s85 0
 31
-R24
+R9
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/dont_care_generate.sv|
 !i113 1
@@ -236,7 +236,7 @@ R12
 R13
 vexact_match
 R0
-R19
+R1
 !i10b 1
 !s100 A7U?2fWiF9c8kVY?OGLcf1
 R2
@@ -247,13 +247,13 @@ R4
 R27
 R28
 R29
-!i122 378
-Z41 L0 11 4
+!i122 389
+Z42 L0 11 4
 R8
 r1
 !s85 0
 31
-R24
+R9
 R30
 R31
 !i113 1
@@ -272,7 +272,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 48 9
 R8
 r1
@@ -297,7 +297,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 38 9
 R8
 r1
@@ -311,7 +311,7 @@ R12
 R13
 vgpbit
 R0
-R19
+R32
 !i10b 1
 !s100 <j=F@99Ue0hRNGTMUl;YF3
 R2
@@ -319,24 +319,24 @@ I;kU12eN^k9Sgaz7cd7AI`3
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 1 6
 R8
 r1
 !s85 0
 31
-R24
-Z42 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv|
-R35
+R9
+Z43 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/ppa_32bit.sv|
+R36
 !i113 1
 R12
 R13
 vgpblk
 R0
-R19
+R32
 !i10b 1
 !s100 FUk;1FYOmoQb00NMUGEY]1
 R2
@@ -344,18 +344,18 @@ IX[UCX3lB>A6gb_f;jCC<U2
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 8 6
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
@@ -369,24 +369,24 @@ I;0?TZ7ZMJWf`RBPGS0F>E3
 R3
 S1
 R4
-R36
 R37
 R38
-!i122 374
+R39
+!i122 385
 L0 16 12
 R8
 r1
 !s85 0
 31
-R9
-R39
+R18
 R40
+R41
 !i113 1
 R12
 R13
 vmaindec
 R0
-R1
+R14
 !i10b 1
 !s100 Cmo0SomlU3RH?RWFHE1UG2
 R2
@@ -394,24 +394,24 @@ IdX1]a77Q]02]h_iJMFh2X2
 R3
 S1
 R4
-R14
 R15
 R16
-!i122 373
+R17
+!i122 384
 L0 54 31
 R8
 r1
 !s85 0
 31
-R9
-R17
 R18
+R19
+R20
 !i113 1
 R12
 R13
 vmips
 R0
-R1
+R14
 !i10b 1
 !s100 bEQR9j@ioZ@Za43k>DJ_L0
 R2
@@ -419,24 +419,24 @@ IWPf<i74EX]eBCBWSIZ[D_0
 R3
 S1
 R4
-R14
 R15
 R16
-!i122 373
+R17
+!i122 384
 L0 5 22
 R8
 r1
 !s85 0
 31
-R9
-R17
 R18
+R19
+R20
 !i113 1
 R12
 R13
 vmips_alu
 R0
-R19
+R1
 !i10b 1
 !s100 `z1SS6=FA9>`U;0IQD7J<3
 R2
@@ -444,16 +444,16 @@ I3WiO^ScPOFIJaeT;0m9WD3
 R3
 S1
 R4
-R20
 R21
 R22
-!i122 380
+R23
+!i122 391
 L0 32 29
 R8
 r1
 !s85 0
 31
-R24
+R9
 R25
 R26
 !i113 1
@@ -472,7 +472,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 58 7
 R8
 r1
@@ -486,7 +486,7 @@ R12
 R13
 vmux2_1
 R0
-R19
+R1
 !i10b 1
 !s100 Q:6FV7XmYK6P7N_BZX?PD2
 R2
@@ -497,13 +497,13 @@ R4
 R27
 R28
 R29
-!i122 378
-R23
+!i122 389
+R24
 R8
 r1
 !s85 0
 31
-R24
+R9
 R30
 R31
 !i113 1
@@ -511,7 +511,7 @@ R12
 R13
 vmux4to1
 R0
-R19
+R1
 !i10b 1
 !s100 Bg]T0e<bkRH^eGBLJB6eU1
 R2
@@ -519,16 +519,16 @@ IIkPMlQkDTo86?TH0^DJ`C2
 R3
 S1
 R4
-R20
 R21
 R22
-!i122 380
+R23
+!i122 391
 L0 16 15
 R8
 r1
 !s85 0
 31
-R24
+R9
 R25
 R26
 !i113 1
@@ -536,7 +536,7 @@ R12
 R13
 vor_32bit
 R0
-R19
+R1
 !i10b 1
 !s100 W0T9n^IXKnHd6W]QZo6TR2
 R2
@@ -544,16 +544,16 @@ IP1FQc7b<]iJCM_W_XNnH51
 R3
 S1
 R4
-R20
 R21
 R22
-!i122 380
-R41
+R23
+!i122 391
+R42
 R8
 r1
 !s85 0
 31
-R24
+R9
 R25
 R26
 !i113 1
@@ -561,7 +561,7 @@ R12
 R13
 voverflow
 R0
-R19
+R1
 !i10b 1
 !s100 ]PO:UX;mzYj3OHjL^HBJ23
 R2
@@ -572,13 +572,13 @@ R4
 w1708292868
 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv
-!i122 381
+!i122 392
 L0 1 17
 R8
 r1
 !s85 0
 31
-R24
+R9
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/overflow.sv|
 !i113 1
@@ -586,7 +586,7 @@ R12
 R13
 vpattern_match
 R0
-R19
+R1
 !i10b 1
 !s100 jXUL=;:7H0AA==fGMcFF52
 R2
@@ -597,13 +597,13 @@ R4
 R27
 8C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv
-!i122 382
+!i122 393
 L0 6 18
 R8
 r1
 !s85 0
 31
-R24
+R9
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/hdl_practice/lab4_mips_alu/pattern_match.sv|
 !i113 1
@@ -611,7 +611,7 @@ R12
 R13
 vppa_16_bit_carry_generate
 R0
-R19
+R32
 !i10b 1
 !s100 UHYW_?Pjz9GLn8T?o60D50
 R2
@@ -619,24 +619,24 @@ Ic8X@M5gm98R>@GMH3M;D11
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 28 94
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
 vppa_32_bit_carry_generate
 R0
-R19
+R32
 !i10b 1
 !s100 A5AX1H;LAAb>io2`z5ohj1
 R2
@@ -644,24 +644,24 @@ ICAD397f[4=MkW7eYW7BAX2
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 123 12
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
 vppa_32bit
 R0
-R19
+R32
 !i10b 1
 !s100 [36?7nHJ2R5G^8AYLB:M^2
 R2
@@ -669,18 +669,18 @@ I@SbEmSUN1EAOmln=L7n8V0
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 148 15
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
@@ -697,7 +697,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 3 16
 R8
 r1
@@ -722,7 +722,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 32 5
 R8
 r1
@@ -747,7 +747,7 @@ R4
 R5
 R6
 R7
-!i122 375
+!i122 386
 L0 26 5
 R8
 r1
@@ -761,7 +761,7 @@ R12
 R13
 vsum
 R0
-R19
+R32
 !i10b 1
 !s100 `:BbQmle>RdUCk1kaX1V:0
 R2
@@ -769,24 +769,24 @@ IPRH<e<QfD9E;W`=]X7ech0
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 22 5
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
 vsum_32bit
 R0
-R19
+R32
 !i10b 1
 !s100 z9BfBY2jIIj6[9:onP_OR0
 R2
@@ -794,24 +794,24 @@ IMWEjndgQ[QAL`CUTeCT>?1
 R3
 S1
 R4
-R32
 R33
 R34
-!i122 383
+R35
+!i122 394
 L0 136 11
 R8
 r1
 !s85 0
 31
-R24
-R42
-R35
+R9
+R43
+R36
 !i113 1
 R12
 R13
 vtestbench
 R0
-R19
+R1
 !i10b 1
 !s100 5h5K<9ia=ZB6F2]dT`M?<1
 R2
@@ -822,7 +822,7 @@ R4
 w1710961262
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstest.sv
-!i122 376
+!i122 387
 L0 3 37
 R8
 r1
@@ -836,7 +836,7 @@ R12
 R13
 vtop
 R0
-R19
+R1
 !i10b 1
 !s100 3R:UWWBL4jUbB]nh?XoaU0
 R2
@@ -847,13 +847,13 @@ R4
 R5
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv
-!i122 377
+!i122 388
 L0 5 15
 R8
 r1
 !s85 0
 31
-R24
+R9
 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mipstop.sv|
 !i113 1
