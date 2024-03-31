@@ -16,6 +16,38 @@ module Lookup(	input [3:0] qi,
 	 	assign match = ~(qi[0]^lookup[0]) & ~(qi[1]^lookup[1]) & ~(qi[2]^lookup[2])& ~(qi[3]^lookup[3]);
 
 endmodule
+
+module Priority_Enc_8_to_3(	input [7:0] din,
+				output [2:0] dout);
+	reg [2:0] dout;
+	always @(din)
+	begin
+		if (din ==8'b00000001) dout=3'b000;
+		else if (din==8'b00000010) dout=3'b001;
+		else if (din==8'b00000100) dout=3'b010;
+		else if (din==8'b00001000) dout=3'b011;
+		else if (din==8'b00010000) dout=3'b100;
+		else if (din ==8'b00100000) dout=3'b101;
+		else if (din==8'b01000000) dout=3'b110;
+		else if (din==8'b10000000) dout=3'b111;
+		else dout=3'bX;
+	end
+endmodule
+
+module ReadPort(	input logic [3:0] D_lookup,
+			input logic [3:0] q[7:0],
+			output logic valid,
+			output logic [2:0] minAddr, maxAddr);
+
+	Lookup my_match_0(q[0], D_lookup, match_0);
+	Lookup my_match_1(q[1], D_lookup, match_1);
+	Lookup my_match_2(q[2], D_lookup, match_2);
+	Lookup my_match_3(q[3], D_lookup, match_3);
+	Lookup my_match_4(q[4], D_lookup, match_4);
+	Lookup my_match_5(q[5], D_lookup, match_5);
+	Lookup my_match_6(q[6], D_lookup, match_6);
+	Lookup my_match_7(q[7], D_lookup, match_7);
+endmodule
 	
 module CAM_File(	input logic clk, init,
 			input logic [3:0] D_Lookup,
