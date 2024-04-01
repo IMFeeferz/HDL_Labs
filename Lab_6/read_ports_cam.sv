@@ -20,6 +20,7 @@ module priority_enc(	input logic  m [7:0],
 			8'b001?????:a=3'b101;
 			8'b01??????:a=3'b110;
 			8'b1???????:a=3'b111;
+			default: a=3'b000;
 		endcase
 endmodule
 
@@ -37,6 +38,7 @@ module lowest_priority_encoder(	input logic m[7:0],
 			8'b??100000:a=3'b101;
 			8'b?1000000:a=3'b110;
 			8'b10000000:a=3'b111;
+			default :a=3'b000;
 		endcase
 
 endmodule
