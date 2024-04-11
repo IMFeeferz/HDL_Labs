@@ -1,0 +1,11 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv}
+project open {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/Lab_6}
+# Loading project Lab_6
+# Compile of CAM.sv was successful.
+# Compile of Register_File.sv was successful.
+# Compile of testbench.sv was successful.
+# Compile of lowest_priority_encoder.sv was successful with warnings.
+# Compile of read_ports_cam.sv was successful with warnings.
+# Compile of write_port.sv was successful.
+# 6 compiles, 0 failed with no errors.

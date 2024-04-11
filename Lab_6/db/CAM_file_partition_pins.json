@@ -1,0 +1,209 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "valid",
+					"strict" : false
+				},
+				{
+					"name" : "minAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "minAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "minAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "maxAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "maxAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "maxAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6][3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7][0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7][1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7][2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7][3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_Lookup[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_Lookup[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_Lookup[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_Lookup[3]",
+					"strict" : false
+				},
+				{
+					"name" : "newD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "init",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "setD",
+					"strict" : false
+				},
+				{
+					"name" : "newD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "newD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "newD[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

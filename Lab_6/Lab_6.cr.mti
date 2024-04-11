@@ -1,20 +1,18 @@
-{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/two_write_ports.sv}
+{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/CAM.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MUX_2
--- Compiling module Decoder_3_to_8
--- Compiling module write_port
--- Compiling module write_enable
--- Compiling module two_write_ports
+-- Compiling module D_Flip_Flop_4bit
+-- Compiling module CAM_File
 
 Top level modules:
-	two_write_ports
+	CAM_File
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Swap_xy.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module swap_xy
+-- Compiling module D_Flip_Flop_4bit
+-- Compiling module Register_File
 
 Top level modules:
-	swap_xy
+	Register_File
 
 } {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/lowest_priority_encoder.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/lowest_priority_encoder.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -37,20 +35,25 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	testbench
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Register_File.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/write_port.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/write_port.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module D_Flip_Flop_4bit
--- Compiling module Register_File
+-- Compiling module Decoder_3_to_8
+-- Compiling module write_port
 
 Top level modules:
-	Register_File
+	write_port
 
-} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv}
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv} {2 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MUX_8_1
-** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_4/Mux_8_1.sv(1): (vlog-13314) Defaulting port 'q' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module Lookup
+-- Compiling module priority_enc
+** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv(9): (vlog-13314) Defaulting port 'm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module lowest_priority_encoder
+** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv(27): (vlog-13314) Defaulting port 'm' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module read_ports_cam
+** Warning: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_6/read_ports_cam.sv(46): (vlog-13314) Defaulting port 'q' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
 Top level modules:
-	MUX_8_1
+	read_ports_cam
 
 } {} {}}
