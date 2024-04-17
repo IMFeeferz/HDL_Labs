@@ -8,3 +8,153 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
+valudec
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1713227778
+!i10b 1
+!s100 kc6SK]nFe@BKoHaDXXNm]2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVL]l<I1QXJ[2@UQBi>@lS0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7
+Z5 w1712775646
+Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
+Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
+!i122 1
+L0 141 12
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1713227777.000000
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+vcontroller
+R0
+R1
+!i10b 1
+!s100 n1;S_^S?13>QChnJ4bJ`91
+R2
+I``;2i@z0XZ>;=KPB_C8lB1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 31 24
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+R10
+!i113 1
+R11
+R12
+vdatapath
+R0
+R1
+!i10b 1
+!s100 TmhjFD9DEdT?]egR6JVCR2
+R2
+IdMknQbi=8i?ofM3aKRi]^3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 165 42
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmips
+R0
+R1
+!i10b 1
+!s100 hkgCOXT7:=541KERz8@ec1
+R2
+I5<UIPjAW@2lhz8I4X[I0;2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 8 22
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmux3
+R0
+R1
+!i10b 1
+!s100 ;`W01JLzE1m9A^IQW?1kJ0
+R2
+Im@WS<dcV?gW_2O`cknzc11
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 209 7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmux4
+R0
+R1
+!i10b 1
+!s100 X?fmKh_fA8__?1]cVckaV0
+R2
+Ie;<ZiJeoW:>gZ?Ik;BCn>3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 1
+L0 217 13
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12

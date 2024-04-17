@@ -50,8 +50,6 @@ module controller(input  logic       clk, reset,
   // Add combinational logic (i.e. an assign statement) 
   // to produce the PCEn signal (pcen) from the branch, 
   // zero, and pcwrite signals
-  pcen = (branch & zero) | pcwrite; 
-
  
 endmodule
 
@@ -108,20 +106,16 @@ module maindec(input  logic       clk, reset,
                  default: nextstate <= 4'bx; // should never happen
                endcase
  		// Add code here
-      MEMADR: case(op)
-		LW:	nextstate <= MEMRD;
-		SW:	nextstate <= MEMWR;
-		default: nextstate <= 4'bx;
-	      endcase
-      MEMRD: nextstate <= MEMWB;
-      MEMWB: nextstate <= FETCH;
-      MEMWR: nextstate <= FETCH;
-      RTYPEEX: nextstate <= RTYPEWB
-      RTYPEWB: nextstate <= FETCH
-      BEQEX:   nextstate <= FETCH
-      ADDIEX:  nextstate <= ADDIWB
-      ADDIWB:  nextstate <= FETCH
-      JEX:     nextstate <= FETCH
+      MEMADR:
+      MEMRD: 
+      MEMWB: 
+      MEMWR: 
+      RTYPEEX: 
+      RTYPEWB: 
+      BEQEX:   
+      ADDIEX:  
+      ADDIWB:  
+      JEX:     
       default: nextstate <= 4'bx; // should never happen
     endcase
 
