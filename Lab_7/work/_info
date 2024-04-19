@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -10,79 +11,129 @@ cModel Technology
 dC:/intelFPGA_lite/20.1
 valudec
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1713227778
+Z1 !s110 1713542033
 !i10b 1
-!s100 kc6SK]nFe@BKoHaDXXNm]2
+!s100 ghzz4I:Ia[Aca2D]R8Le=1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IVL]l<I1QXJ[2@UQBi>@lS0
+I7:JFSSa0PSR6n:6>;L9JS3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7
-Z5 w1712775646
+Z5 w1713542024
 Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
 Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
-!i122 1
-L0 141 12
+!i122 6
+L0 154 29
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1713227777.000000
-!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
-Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+Z9 !s108 1713542033.000000
+Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
 !i113 1
-Z11 o-work work -sv
-Z12 tCvgOpt 0
+Z12 o-work work -sv
+Z13 tCvgOpt 0
 vcontroller
 R0
 R1
 !i10b 1
-!s100 n1;S_^S?13>QChnJ4bJ`91
+!s100 QT@?GTZnU85fcC9eEk6gV0
 R2
-I``;2i@z0XZ>;=KPB_C8lB1
+I?Rk^fm`WKUTF9MfhAN69j2
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 1
-L0 31 24
+!i122 6
+L0 31 25
 R8
 r1
 !s85 0
 31
 R9
-Z13 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
+vcontrollertest
+R0
+R1
+!i10b 1
+!s100 m`FGik_QbFaYTdB6l[?OJ1
+R2
+IJc^8VgN0UR;ein@g8bfGP2
+R3
+S1
+R4
+w1713541796
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv
+!i122 7
+L0 1 103
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv|
+!i113 1
+R12
+R13
 vdatapath
 R0
 R1
 !i10b 1
-!s100 TmhjFD9DEdT?]egR6JVCR2
+!s100 e5RU?NRTLM5]z3?VT6?G[3
 R2
-IdMknQbi=8i?ofM3aKRi]^3
+IA8[;fPN0[@A=BVUURTK300
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 1
-L0 165 42
+!i122 6
+L0 195 42
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
+vmaindec
+R0
+R1
+!i10b 1
+!s100 fA=iH[IJ3^N2=P`mh5Def2
+R2
+Ii1;WUZe_lW<o6LY<`jRlU0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 6
+L0 57 96
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
 vmips
 R0
 R1
@@ -96,65 +147,65 @@ R4
 R5
 R6
 R7
-!i122 1
+!i122 6
 L0 8 22
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
 vmux3
 R0
 R1
 !i10b 1
-!s100 ;`W01JLzE1m9A^IQW?1kJ0
+!s100 J89]Sg3C=WP];M4Zld9ze0
 R2
-Im@WS<dcV?gW_2O`cknzc11
+I>^MVJ0B7OG9c7gOFneP1A2
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 1
-L0 209 7
+!i122 6
+L0 239 7
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
 vmux4
 R0
 R1
 !i10b 1
-!s100 X?fmKh_fA8__?1]cVckaV0
+!s100 JW@1k3ZNbeDeVIUjfNcVM0
 R2
-Ie;<ZiJeoW:>gZ?Ik;BCn>3
+IQ>^7YCUeDnKb0j=ii4eOA0
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 1
-L0 217 13
+!i122 6
+L0 247 13
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
