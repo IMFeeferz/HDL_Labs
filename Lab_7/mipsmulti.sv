@@ -51,7 +51,6 @@ module controller(input  logic       clk, reset,
   // to produce the PCEn signal (pcen) from the branch, 
   // zero, and pcwrite signals
   assign pcen = (branch & zero) | pcwrite; 
-
 endmodule
 
 module maindec(input  logic       clk, reset, 
@@ -120,7 +119,7 @@ module maindec(input  logic       clk, reset,
       BEQEX:   nextstate <= FETCH;
       ADDIEX:  nextstate <= ADDIWB;
       ADDIWB:  nextstate <= FETCH;
-      JEX:     nextstate <= FETCH;
+      JEX:     nextstate <= FETCH; 
       default: nextstate <= 4'bx; // should never happen
     endcase
 
@@ -136,7 +135,7 @@ module maindec(input  logic       clk, reset,
     case(state)
       FETCH:   controls <= 15'h5010;
       DECODE:  controls <= 15'h0030;
-    // your code goes here   
+    // your code goes here      
       MEMADR:   controls <= 15'h0420;
       MEMRD:   controls <= 15'h0100;
       MEMWB:   controls <= 15'h0880;
@@ -230,7 +229,30 @@ module datapath(input  logic        clk, reset,
   // so it's easier to understand.
 
   // ADD CODE HERE
+  // next PC logic
+  flopenr #(32) pcreg(clk, reset,pcen, pcnext, pc);
+  mux2 #(32)  pcmux(pc, aluout, iord, adr);
+  mux2 #(32)  srcamux(pc, a, alusrca, srca);
+  
 
+ // register file logic
+
+  regfile     rf(clk, regwrite, instr[25:21],
+                 instr[20:16], writereg,
+                 wd3, rd1, rd2);
+  flopenr #(32)  instrreg(clk, reset,irwrite, readdata, instr);
+  flopr #(32)  wdreg(clk, reset, readdata, data);
+  mux2 #(5)   wrmux(instr[20:16], instr[15:11], regdst, writereg);
+  mux2 #(32)  wdmux(aluout, data, memtoreg, wd3);
+  signext     se(instr[15:0], signimm);
+  flopr2 #(32) rfreg(clk, reset, rd1, rd2, a, writedata);
+
+  // ALU logic
+  mux4 #(32)   srcbmux(writedata, 32'b100, signimm, signimmsh, alusrcb, srcb);
+  alu          alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluresult), .Zero(zero));
+  flopr #(32)  alureg(clk, reset, aluresult, aluout);
+  mux3 #(32)   alumux(aluresult, aluout,{pc[31:28],instr[25:0],2'b00}, pcsrc, pcnext);
+  sl2          immsh1(signimm, signimmsh);
   // datapath
   
 endmodule
