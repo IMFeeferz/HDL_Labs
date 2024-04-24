@@ -12,7 +12,6 @@ module top(input  logic       clk, reset,
 
   mips mips(clk, reset, adr, writedata, memwrite, readdata);
 
-  //imem imem(pc[7:2], instr);
 
   mem mem(clk, memwrite, adr, writedata ,readdata);
 
