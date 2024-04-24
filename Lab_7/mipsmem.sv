@@ -5,7 +5,7 @@ module dmem(input  logic        clk, we,
             output logic [31:0] rd);
 
   logic [31:0] RAM[63:0];
-  logic [2:0]state;
+  //logic [2:0]state;
   initial
     begin
      	$readmemh("memfile.dat",RAM); // initialize memory 
