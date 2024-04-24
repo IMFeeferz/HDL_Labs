@@ -8,7 +8,6 @@ module dmem(input  logic        clk, we,
   logic [2:0]state;
   initial
     begin
-     if(state===3'b000)
      	$readmemh("memfile.dat",RAM); // initialize memory 
     end
    assign rd = RAM[a]; // word aligned
