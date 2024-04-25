@@ -1,13 +1,115 @@
-{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv} {0 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv}
+{C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module and_32bit
+-- Compiling module or_32bit
+-- Compiling module mux4to1
+-- Compiling module mips_alu
+
+Top level modules:
+	mips_alu
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pattern_match
+
+Top level modules:
+	pattern_match
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module overflow
+
+Top level modules:
+	overflow
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controllertest
+
+Top level modules:
+	controllertest
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mips
 -- Compiling module controller
 -- Compiling module maindec
-** Error: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv(110): 'MEMRD' already exists; must not be redefined as a named block
-** Error: (vlog-13069) C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv(111): near ":": syntax error, unexpected ':'.
 -- Compiling module aludec
 -- Compiling module datapath
 -- Compiling module mux3
 -- Compiling module mux4
 
-} {6.0 8.0} {}}
+Top level modules:
+	mips
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dont_care_generate
+
+Top level modules:
+	dont_care_generate
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2_1
+-- Compiling module exact_match
+-- Compiling module appx_match
+
+Top level modules:
+	appx_match
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gpbit
+-- Compiling module gpblk
+-- Compiling module carry_generate
+-- Compiling module sum
+-- Compiling module ppa_16_bit_carry_generate
+-- Compiling module ppa_32_bit_carry_generate
+-- Compiling module sum_32bit
+-- Compiling module ppa_32bit
+
+Top level modules:
+	ppa_32bit
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+-- Compiling module adder
+-- Compiling module sl2
+-- Compiling module signext
+-- Compiling module flopr
+-- Compiling module flopenr
+-- Compiling module mux2
+
+Top level modules:
+	regfile
+	adder
+	sl2
+	signext
+	flopr
+	flopenr
+	mux2
+
+} {} {}} {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv} {1 {vlog -work work -sv -stats=none {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

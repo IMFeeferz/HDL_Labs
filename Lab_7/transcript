@@ -1,0 +1,381 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv}
+project open {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/Lab_7}
+# Loading project Lab_7
+cd {C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7}
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:12:36 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 273
+#         Searched libraries:
+#             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/work
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Error loading design
+# End time: 18:12:37 on Apr 24,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:14:15 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# ** Error: (vsim-3033) Instantiation of 'alu' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 273
+#         Searched libraries:
+#             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/work
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Error loading design
+# End time: 18:14:16 on Apr 24,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:14:41 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# ** Error: (vsim-3033) Instantiation of 'ppa_32bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp/alu File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv Line: 53
+#         Searched libraries:
+#             C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/work
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Error loading design
+# End time: 18:14:42 on Apr 24,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:16:21 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp/alu File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 273
+# ** Warning: (vsim-3722) C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv(273): [TFMPC] - Missing connection for port 'OF'.
+add wave -position insertpoint  \
+sim:/testbench/dut/clk \
+sim:/testbench/dut/reset \
+sim:/testbench/dut/writedata \
+sim:/testbench/dut/adr \
+sim:/testbench/dut/memwrite \
+sim:/testbench/dut/readdata
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: afeef  Hostname: TABLET-10B3BEVL  ProcessID: 17536
+#           Attempting to use alternate WLF file "./wlftf5q4zk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf5q4zk
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/c/md/state
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/c/md/controls
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/srca \
+sim:/testbench/dut/mips/dp/srcb
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/funct
+run
+run
+run
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv(35)
+#    Time: 375 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv line 35
+run
+run
+run
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv(35)
+#    Time: 725 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv line 35
+run
+# Simulation failed
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv(35)
+#    Time: 765 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv line 35
+run
+run
+quit -sim
+# End time: 18:23:04 on Apr 24,2024, Elapsed time: 0:06:43
+# Errors: 0, Warnings: 7
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:24:07 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'alu'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/mips/dp/alu File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 273
+# ** Warning: (vsim-3722) C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv(273): [TFMPC] - Missing connection for port 'OF'.
+quit -sim
+# End time: 18:24:36 on Apr 24,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 4
+# Compile of mipsmulti.sv was successful.
+# Compile of controllertest.sv was successful.
+# Compile of mipstop.sv was successful.
+# Compile of mipstest.sv was successful.
+# Compile of mipsparts.sv was successful.
+# Compile of mipsmem.sv was successful.
+# Compile of pattern_match.sv was successful.
+# Compile of overflow.sv was successful.
+# Compile of mips_alu.sv was successful.
+# Compile of dont_care_generate.sv was successful.
+# Compile of appx_match_check.sv was successful.
+# Compile of ppa_32bit.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:25:21 on Apr 24,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopenr
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flopr
+# Loading work.signext
+# Loading work.mux4
+# Loading work.mips_alu
+# Loading work.pattern_match
+# Loading work.dont_care_generate
+# Loading work.and_32bit
+# Loading work.or_32bit
+# Loading work.ppa_32bit
+# Loading work.ppa_32_bit_carry_generate
+# Loading work.ppa_16_bit_carry_generate
+# Loading work.gpbit
+# Loading work.carry_generate
+# Loading work.gpblk
+# Loading work.sum_32bit
+# Loading work.mux4to1
+# Loading work.overflow
+# Loading work.mux3
+# Loading work.sl2
+# Loading work.mem
+# Loading work.appx_match
+# Loading work.exact_match
+# Loading work.mux2_1
+# Loading work.sum
+add wave -position insertpoint sim:/testbench/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: afeef  Hostname: TABLET-10B3BEVL  ProcessID: 17536
+#           Attempting to use alternate WLF file "./wlftqzaw4i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqzaw4i
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/c/md/state
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/c/md/controls
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/srca \
+sim:/testbench/dut/mips/dp/srcb
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/aluresult
+add wave -position insertpoint  \
+sim:/testbench/dut/mips/dp/pc \
+sim:/testbench/dut/mips/dp/instr
+run
+run
+run
+run
+run
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv(32)
+#    Time: 635 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv line 32
+run
+# End time: 19:34:23 on Apr 24,2024, Elapsed time: 1:09:02
+# Errors: 0, Warnings: 4

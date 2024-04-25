@@ -9,59 +9,159 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
-valudec
+vadder
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1713542033
+Z1 !s110 1714001108
 !i10b 1
-!s100 ghzz4I:Ia[Aca2D]R8Le=1
+!s100 2@IO0g3D:0RKPd`IAn?bQ1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I7:JFSSa0PSR6n:6>;L9JS3
+If6V2jDYL>>QL5LUYm`Nj11
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7
-Z5 w1713542024
-Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
-Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
-!i122 6
-L0 154 29
+Z5 w1714000238
+Z6 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv
+Z7 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv
+!i122 77
+L0 20 5
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1713542033.000000
-Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
-Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+Z9 !s108 1714001107.000000
+Z10 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsparts.sv|
 !i113 1
 Z12 o-work work -sv
 Z13 tCvgOpt 0
-vcontroller
+valudec
 R0
-R1
+Z14 !s110 1714001107
 !i10b 1
-!s100 QT@?GTZnU85fcC9eEk6gV0
+!s100 ]7k?;eZQg>fZM=2:J`cOX0
 R2
-I?Rk^fm`WKUTF9MfhAN69j2
+IJRo:8OG^7;8m>Yl>fDN4o2
 R3
 S1
 R4
-R5
-R6
-R7
-!i122 6
-L0 31 25
+Z15 w1714000469
+Z16 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
+Z17 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv
+!i122 73
+L0 172 29
 R8
 r1
 !s85 0
 31
 R9
-R10
-R11
+Z18 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv|
+!i113 1
+R12
+R13
+vand_32bit
+R0
+Z20 !s110 1714001109
+!i10b 1
+!s100 ;MNLOCZMY^oL56Qez:d?Q2
+R2
+IzXRVTRd>;=dJR0=5LDPBQ0
+R3
+S1
+R4
+Z21 w1714001091
+Z22 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv
+Z23 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv
+!i122 81
+Z24 L0 6 4
+R8
+r1
+!s85 0
+31
+Z25 !s108 1714001108.000000
+Z26 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv|
+Z27 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/mips_alu.sv|
+!i113 1
+R12
+R13
+vappx_match
+R0
+R20
+!i10b 1
+!s100 zN@hl;<>`nOWc48lnJORf3
+R2
+IYWj0Q_O_kh_nb=hV7VOYR0
+R3
+S1
+R4
+Z28 w1708114945
+Z29 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv
+Z30 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv
+!i122 83
+L0 16 21
+R8
+r1
+!s85 0
+31
+Z31 !s108 1714001109.000000
+Z32 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv|
+Z33 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/appx_match_check.sv|
+!i113 1
+R12
+R13
+vcarry_generate
+R0
+R20
+!i10b 1
+!s100 AK5[FBVY6LCYPdcH;cLYl2
+R2
+ISE^`;8VeR6Z=j@8W_?D?G3
+R3
+S1
+R4
+Z34 w1708037712
+Z35 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv
+Z36 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv
+!i122 84
+L0 15 6
+R8
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv|
+Z37 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv|
+!i113 1
+R12
+R13
+vcontroller
+R0
+R14
+!i10b 1
+!s100 MSdD2^gKS[1G4OC_9o=353
+R2
+ID5R09^=HJD_ca:=I]gc^22
+R3
+S1
+R4
+R15
+R16
+R17
+!i122 73
+L0 31 33
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
 !i113 1
 R12
 R13
 vcontrollertest
 R0
-R1
+R14
 !i10b 1
 !s100 m`FGik_QbFaYTdB6l[?OJ1
 R2
@@ -72,7 +172,7 @@ R4
 w1713541796
 8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv
 FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/controllertest.sv
-!i122 7
+!i122 74
 L0 1 103
 R8
 r1
@@ -86,19 +186,94 @@ R12
 R13
 vdatapath
 R0
+R14
+!i10b 1
+!s100 ^TnYKAgT^VmdbnT8^[dgT2
+R2
+IAjA7NjL8eVQ1I54hZd3K`2
+R3
+S1
+R4
+R15
+R16
+R17
+!i122 73
+L0 213 67
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+vdont_care_generate
+R0
+R20
+!i10b 1
+!s100 Ha?0F1`?mY?ll=bM=`=:o3
+R2
+I]]USkY81h@MN]kP<AZ23m3
+R3
+S1
+R4
+R28
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv
+!i122 82
+L0 9 18
+R8
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/dont_care_generate.sv|
+!i113 1
+R12
+R13
+vexact_match
+R0
+R20
+!i10b 1
+!s100 A7U?2fWiF9c8kVY?OGLcf1
+R2
+I>n`<6n[g888`M_f3eLG^>2
+R3
+S1
+R4
+R28
+R29
+R30
+!i122 83
+Z38 L0 11 4
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R12
+R13
+vflopenr
+R0
 R1
 !i10b 1
-!s100 e5RU?NRTLM5]z3?VT6?G[3
+!s100 RiIIH^53jbi7?a1?Wz4ZN3
 R2
-IA8[;fPN0[@A=BVUURTK300
+I9P9mJ8`5`G6o<Lm:So;dB2
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 6
-L0 195 42
+!i122 77
+L0 49 9
 R8
 r1
 !s85 0
@@ -106,37 +281,137 @@ r1
 R9
 R10
 R11
+!i113 1
+R12
+R13
+vflopr
+R0
+R1
+!i10b 1
+!s100 DKaXzT4^C``PW=Tj9c0lR3
+R2
+IMR;F3:Z5VHcKSQI91VR>]2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 77
+L0 38 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vgpbit
+R0
+R20
+!i10b 1
+!s100 <j=F@99Ue0hRNGTMUl;YF3
+R2
+IAP2@[;Y4QEQF:jLP^1_Q52
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 1 6
+R8
+r1
+!s85 0
+31
+R31
+Z39 !s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/ppa_32bit.sv|
+R37
+!i113 1
+R12
+R13
+vgpblk
+R0
+R20
+!i10b 1
+!s100 FUk;1FYOmoQb00NMUGEY]1
+R2
+IH@Joz>gd[_;aO8m3nz@A61
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 8 6
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
 !i113 1
 R12
 R13
 vmaindec
 R0
-R1
+R14
 !i10b 1
-!s100 fA=iH[IJ3^N2=P`mh5Def2
+!s100 S2]QJN6EgbGoTC6YjA`=G0
 R2
-Ii1;WUZe_lW<o6LY<`jRlU0
+Idi5I@zVDES061]IV`>E_@3
 R3
 S1
 R4
-R5
-R6
-R7
-!i122 6
-L0 57 96
+R15
+R16
+R17
+!i122 73
+L0 65 106
 R8
 r1
 !s85 0
 31
 R9
-R10
-R11
+R18
+R19
+!i113 1
+R12
+R13
+vmem
+R0
+R1
+!i10b 1
+!s100 RZNoeFCQA9674z=0JeG3I3
+R2
+I9M1<W2?]Xc0SoJHkCLhQm2
+R3
+S1
+R4
+w1714001001
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv
+!i122 78
+L0 3 19
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmem.sv|
 !i113 1
 R12
 R13
 vmips
 R0
-R1
+R14
 !i10b 1
 !s100 hkgCOXT7:=541KERz8@ec1
 R2
@@ -144,36 +419,336 @@ I5<UIPjAW@2lhz8I4X[I0;2
 R3
 S1
 R4
-R5
-R6
-R7
-!i122 6
+R15
+R16
+R17
+!i122 73
 L0 8 22
 R8
 r1
 !s85 0
 31
 R9
+R18
+R19
+!i113 1
+R12
+R13
+vmips_alu
+R0
+R20
+!i10b 1
+!s100 `z1SS6=FA9>`U;0IQD7J<3
+R2
+Il4DC3DIgi>0zi]m1FYmL11
+R3
+S1
+R4
+R21
+R22
+R23
+!i122 81
+L0 32 29
+R8
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R12
+R13
+vmux2
+R0
+R1
+!i10b 1
+!s100 Y_5X`I4B^D:N8hOQCMYk23
+R2
+I7GO_3kNo9=OIZWR4NjJ>h2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 77
+L0 59 7
+R8
+r1
+!s85 0
+31
+R9
 R10
 R11
+!i113 1
+R12
+R13
+vmux2_1
+R0
+R20
+!i10b 1
+!s100 Q:6FV7XmYK6P7N_BZX?PD2
+R2
+ILKPZzQ]:[aLLTHoFP1amT1
+R3
+S1
+R4
+R28
+R29
+R30
+!i122 83
+R24
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
 !i113 1
 R12
 R13
 vmux3
 R0
+R14
+!i10b 1
+!s100 S[VY26WTbOU1GaSER74fG0
+R2
+I@>1TcbJUZAYz^PQh`J4j=3
+R3
+S1
+R4
+R15
+R16
+R17
+!i122 73
+L0 282 7
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+vmux4
+R0
+R14
+!i10b 1
+!s100 C?hHfR]g]di]QAA_YaB:93
+R2
+I23]WMh=132hlPFPi7z4i`2
+R3
+S1
+R4
+R15
+R16
+R17
+!i122 73
+L0 290 13
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+vmux4to1
+R0
+R20
+!i10b 1
+!s100 Bg]T0e<bkRH^eGBLJB6eU1
+R2
+IE5YG3LQBl52h_iA8n@CVf0
+R3
+S1
+R4
+R21
+R22
+R23
+!i122 81
+L0 16 15
+R8
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R12
+R13
+vor_32bit
+R0
+R20
+!i10b 1
+!s100 W0T9n^IXKnHd6W]QZo6TR2
+R2
+I4WHUK`GWmIS^X553IDeRc1
+R3
+S1
+R4
+R21
+R22
+R23
+!i122 81
+R38
+R8
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R12
+R13
+voverflow
+R0
 R1
 !i10b 1
-!s100 J89]Sg3C=WP];M4Zld9ze0
+!s100 ]PO:UX;mzYj3OHjL^HBJ23
 R2
-I>^MVJ0B7OG9c7gOFneP1A2
+IPZb2Y6ICS4R?bm^hfWBNA1
+R3
+S1
+R4
+w1708292868
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv
+!i122 80
+L0 1 17
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/overflow.sv|
+!i113 1
+R12
+R13
+vpattern_match
+R0
+R1
+!i10b 1
+!s100 jXUL=;:7H0AA==fGMcFF52
+R2
+ICN4h8RUDT33bPWM8JEgP41
+R3
+S1
+R4
+R28
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv
+!i122 79
+L0 6 18
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_5/pattern_match.sv|
+!i113 1
+R12
+R13
+vppa_16_bit_carry_generate
+R0
+R20
+!i10b 1
+!s100 UHYW_?Pjz9GLn8T?o60D50
+R2
+I[hbU2:zhLDTg;NnVTo]=l1
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 28 94
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
+!i113 1
+R12
+R13
+vppa_32_bit_carry_generate
+R0
+R20
+!i10b 1
+!s100 A5AX1H;LAAb>io2`z5ohj1
+R2
+Ied;gLi^]lVFhDEWzo::YM1
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 123 12
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
+!i113 1
+R12
+R13
+vppa_32bit
+R0
+R20
+!i10b 1
+!s100 [36?7nHJ2R5G^8AYLB:M^2
+R2
+IS72KeGPAR8P9o__=LnLm]3
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 148 15
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
+!i113 1
+R12
+R13
+vregfile
+R0
+R1
+!i10b 1
+!s100 HG9U_@1a4@7c;@YmlI<2T3
+R2
+I?XI_:_BD_W7zcMG6;Sdh63
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 6
-L0 239 7
+!i122 77
+L0 3 16
 R8
 r1
 !s85 0
@@ -184,21 +759,21 @@ R11
 !i113 1
 R12
 R13
-vmux4
+vsignext
 R0
 R1
 !i10b 1
-!s100 JW@1k3ZNbeDeVIUjfNcVM0
+!s100 [=S;U10;1SBa30F<lZ0R00
 R2
-IQ>^7YCUeDnKb0j=ii4eOA0
+IdEJ88EWQBE3`6jNVJe@T03
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 6
-L0 247 13
+!i122 77
+L0 32 5
 R8
 r1
 !s85 0
@@ -206,6 +781,131 @@ r1
 R9
 R10
 R11
+!i113 1
+R12
+R13
+vsl2
+R0
+R1
+!i10b 1
+!s100 4mfd1mSH]bc;A^Fj5OTzY2
+R2
+I7:WnngCEJ@jZf=WQ>Jble2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 77
+L0 26 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vsum
+R0
+R20
+!i10b 1
+!s100 `:BbQmle>RdUCk1kaX1V:0
+R2
+I1=e?=hP6>za?WdkCgYB7]1
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 22 5
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
+!i113 1
+R12
+R13
+vsum_32bit
+R0
+R20
+!i10b 1
+!s100 z9BfBY2jIIj6[9:onP_OR0
+R2
+IUMN?3GLmZc=PhMVO=f2jP0
+R3
+S1
+R4
+R34
+R35
+R36
+!i122 84
+L0 136 11
+R8
+r1
+!s85 0
+31
+R31
+R39
+R37
+!i113 1
+R12
+R13
+vtestbench
+R0
+R14
+!i10b 1
+!s100 <TGLj8mPP[0dCaSd:YFbd0
+R2
+IlZCXzQjmh2c:Pz^PK?_k;2
+R3
+S1
+R4
+w1713809919
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv
+!i122 76
+L0 3 37
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstest.sv|
+!i113 1
+R12
+R13
+vtop
+R0
+R14
+!i10b 1
+!s100 iDN7S0iDX?YVE=R]a4WJ71
+R2
+IR^1CSA[U:1k>YejNFWhhb1
+R3
+S1
+R4
+R5
+8C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv
+FC:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv
+!i122 75
+L0 5 14
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipstop.sv|
 !i113 1
 R12
 R13

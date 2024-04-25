@@ -270,7 +270,7 @@ module datapath(input  logic        clk, reset,
 
   // ALU logic
   mux4 #(32)   srcbmux(writedata, 32'b100, signimm, signimmsh, alusrcb, srcb);
-  alu          alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluresult), .Zero(zero));
+  mips_alu          alu(.A(srca), .B(srcb), .F(alucontrol), .Y(aluresult), .Zero(zero));
   flopr #(32)  alureg(clk, reset, aluresult, aluout);
   mux3 #(32)   alumux(aluresult, aluout,{pc[31:28],instr[25:0],2'b00}, pcsrc, pcnext);
   sl2          immsh1(signimm, signimmsh);

@@ -1,0 +1,3 @@
+Warning (10273): Verilog HDL warning at mipsmulti.sv(123): extended using "x" or "z" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 123
+Warning (10273): Verilog HDL warning at mipsmulti.sv(129): extended using "x" or "z" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 129
+Warning (10273): Verilog HDL warning at mipsmulti.sv(141): extended using "x" or "z" File: C:/Users/afeef/OneDrive/Documents/ECE 469/HDL_Labs/Lab_7/mipsmulti.sv Line: 141
